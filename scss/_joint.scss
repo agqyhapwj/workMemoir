@@ -39,3 +39,11 @@ $Trem: 1rem;
 @mixin DNli{
     list-style-type: none;
 }
+
+// 計算header裡 Logo與MenuBtn 之間的的寬度
+// 1:設變數(承載值的物件名稱) $WM=倍數 $WA=加的總數
+// 2.MenuBtn寬度 = 父框架的總寬度(100) - Logo寬度(85)
+@mixin LogoMenuBtn($WM, $WA) {
+    $LogoWidth: $W10vw * $WM + $WA;
+    $MenuBtnWidth: $W10vw * 10 - $LogoWidth;
+}
