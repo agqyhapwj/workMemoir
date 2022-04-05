@@ -49,7 +49,7 @@ img {
     background-size: contain;
     background-image: url(../../images/icon/menu.svg);
   }
-  header > #MainNav #Icon {
+  header > #MainNav #icon {
     display: none;
   }
   header > #MainNav .BtnBox {

@@ -7,7 +7,7 @@ header {
         top: 0;
         z-index: 999;
         background-color: gainsboro;
-        @include LogoMenuBtn(8,5vw);
+        @include LogoMenuBtn(8, 5vw);
 
         // 靠左對齊與(MenuBtn同一行
         #Logo {
@@ -24,7 +24,7 @@ header {
         }
 
         // icon在手機版是隱藏的
-        #Icon {
+        #icon {
             @include DN;
         }
         .BtnBox {
