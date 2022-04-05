@@ -7,7 +7,7 @@ header {
         top: 0;
         z-index: 999;
         background-color: gainsboro;
-        @include LogoMenuBtn(8,5);
+        @include LogoMenuBtn(8,5vw);
 
         // 靠左對齊與(MenuBtn同一行
         #Logo {
@@ -16,13 +16,27 @@ header {
         }
         // 靠左對齊與(Logo同一行)
         #MenuBtn {
-            height: 60px;
+            height: 48px;
             float: left;
-            text-indent: -9999;
+            text-indent: -9999px;
             background-color: rgb(228, 157, 210);
             @include PhotoMenu(center, contain, icon, "menu.svg");
         }
+
+        // icon在手機版是隱藏的
+        #Icon {
+            @include DN;
+        }
+        .BtnBox {
+            @include DN;
+        }
+        // 在html裡有建立「清除浮動樣式的空白段落在36行 <p class="Clear"></p>」
+        .Clear {
+            clear: both;
+        }
     }
 
-
+    > #MenuNavOpen {
+        @include DN;
+    }
 }

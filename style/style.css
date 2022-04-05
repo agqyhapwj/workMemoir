@@ -30,17 +30,35 @@ img {
     background-color: gainsboro;
   }
   header > #MainNav #Logo {
+    width: 85vw;
+  }
+  header > #MainNav #MenuBtnWidth {
+    width: 15vw;
+  }
+  header > #MainNav #Logo {
     float: left;
     background-color: #b3f3f3;
   }
   header > #MainNav #MenuBtn {
-    height: 60px;
+    height: 48px;
     float: left;
-    text-indent: -9999;
+    text-indent: -9999px;
     background-color: #e49dd2;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     background-image: url(../../images/icon/menu.svg);
+  }
+  header > #MainNav #Icon {
+    display: none;
+  }
+  header > #MainNav .BtnBox {
+    display: none;
+  }
+  header > #MainNav .Clear {
+    clear: both;
+  }
+  header > #MenuNavOpen {
+    display: none;
   }
 }

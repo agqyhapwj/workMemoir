@@ -51,6 +51,17 @@ $Trem: 1rem;
 @mixin LogoMenuBtn($WM, $WA) {
     $LogoWidth: $W10vw * $WM + $WA;
     $MenuBtnWidth: $W10vw * 10 - $LogoWidth;
+
+    // 連動計算寬度Logo與MenuBtn
+    #Logo {
+        // 寬度
+        width: $LogoWidth;
+    }
+    
+    #MenuBtnWidth {
+        // 寬度
+        width: $MenuBtnWidth;
+    }
 }
 
 // 手機版按鈕選單專用
