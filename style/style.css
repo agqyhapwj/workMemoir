@@ -31,13 +31,13 @@ img {
   }
   header > #MainNav #Logo {
     float: left;
-    background-color: aqua;
+    background-color: #b3f3f3;
   }
   header > #MainNav #MenuBtn {
     height: 60px;
     float: left;
     text-indent: -9999;
-    background-color: cornflowerblue;
+    background-color: #e49dd2;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

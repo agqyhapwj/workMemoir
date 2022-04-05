@@ -12,17 +12,16 @@ header {
         // 靠左對齊與(MenuBtn同一行
         #Logo {
             float: left;
-            background-color: aqua;
+            background-color: rgb(179, 243, 243);
         }
         // 靠左對齊與(Logo同一行)
         #MenuBtn {
             height: 60px;
             float: left;
             text-indent: -9999;
-            background-color: cornflowerblue;
+            background-color: rgb(228, 157, 210);
             @include PhotoMenu(center, contain, icon, "menu.svg");
         }
-
     }
 
 
