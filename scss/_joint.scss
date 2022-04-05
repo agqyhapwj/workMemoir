@@ -15,7 +15,7 @@ img {
     height: auto;
 }
 // 變數區   vw在父框架與子框架之間，會呈現誤差值，建議單位用 %
-$W10vw: 10vw;
+$W10: 10vw;
 $W1p: 10%;
 // 文字：px(固定值)，em(百分比~的疊加父框架的設定值)，rem(百分比，不會疊加父框架的設定值)
 $Trem: 1rem;
@@ -49,18 +49,18 @@ $Trem: 1rem;
 // 1:設變數(承載值的物件名稱) $WM=倍數 $WA=加的總數
 // 2.MenuBtn寬度 = 父框架的總寬度(100) - Logo寬度(85)
 @mixin LogoMenuBtn($WM, $WA) {
-    $LogoWidth: $W10vw * $WM + $WA;
-    $MenuBtnWidth: $W10vw * 10 - $LogoWidth;
+    $LogoW: $W10 * $WM + $WA;
+    $MBW: $W10 * 10 - $LogoW;
 
     // 連動計算寬度Logo與MenuBtn
     #Logo {
         // 寬度
-        width: $LogoWidth;
+        width: $LogoW;
     }
     
     #MenuBtnWidth {
         // 寬度
-        width: $MenuBtnWidth;
+        width: $MBW;
     }
 }
 
