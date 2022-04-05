@@ -27,6 +27,11 @@ $Trem: 1rem;
 
 // 撰寫 scss 的「混合函式 @mixin」，修正scss的繼承功能，無法被 @media 使用的問題
 
+// 隱藏區塊
+@mixin DN {
+    display: none;
+}
+
 // 開啟隱藏區塊
 @mixin OpenBlock {
     display: block;
