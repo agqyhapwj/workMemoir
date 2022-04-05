@@ -1,0 +1,12 @@
+#Main {
+    img {
+        padding-top: 2.2rem;
+    }
+
+    #Banner {
+        width: $W10 *10;
+        // 1.溢位設定:將超出的可視範圍給隱藏 2.定位點:相對定位
+        overflow: hidden;
+        position: relative;
+    }
+}
