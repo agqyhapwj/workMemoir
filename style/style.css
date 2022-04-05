@@ -27,7 +27,6 @@ img {
     position: fixed;
     top: 0;
     z-index: 999;
-    background-color: gainsboro;
   }
   header > #MainNav #Logo {
     width: 85vw;
@@ -42,7 +41,7 @@ img {
   header > #MainNav #MenuBtn {
     height: 48px;
     float: left;
-    text-indent: 10px;
+    text-indent: 12px;
     background-color: #e49dd2;
     background-repeat: no-repeat;
     background-position: center;

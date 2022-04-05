@@ -6,7 +6,7 @@ header {
         position: fixed;
         top: 0;
         z-index: 999;
-        background-color: gainsboro;
+        // background-color: rgb(238, 104, 104);
         @include LogoMenuBtn(8, 5vw);
 
         // 靠左對齊與(MenuBtn同一行
@@ -18,7 +18,7 @@ header {
         #MenuBtn {
             height: 48px;
             float: left;
-            text-indent: 10px;
+            text-indent: 12px;
             background-color: rgb(228, 157, 210);
             @include MenuBtn(center, contain, icon, "menu.svg");
         }
