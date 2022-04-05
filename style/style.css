@@ -60,4 +60,31 @@ img {
   header > #MenuNavOpen {
     display: none;
   }
+  footer hr {
+    margin-bottom: 1rem;
+  }
+  footer nav {
+    margin-bottom: 1rem;
+  }
+  footer nav ul {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+  }
+  footer nav ul li > a {
+    color: black;
+    text-decoration: none;
+  }
+  footer div {
+    margin-bottom: 0.7rem;
+  }
+  footer div h4 {
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  footer #Address {
+    display: none;
+  }
 }

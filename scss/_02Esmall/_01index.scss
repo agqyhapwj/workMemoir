@@ -40,3 +40,37 @@ header {
         @include DN;
     }
 }
+
+footer {
+    // 物件之間的距離值 vh rem ~ 1rem=16px
+    // margin-top: 2rem;
+    hr {
+        margin-bottom: 1rem;
+    }
+
+    // 頁尾手機版次導覽列置中
+    nav {
+        margin-bottom: 1rem;
+        ul {
+            width: 80%;
+            display: flex;
+            @include DNli;
+            li > a {
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+    // 版權宣告置中
+    div {
+        margin-bottom: 0.7rem;
+        h4 {
+            text-align: center;
+            padding-bottom: 1rem;
+        }
+    }
+
+    #Address {
+        @include DN;
+    }
+}
