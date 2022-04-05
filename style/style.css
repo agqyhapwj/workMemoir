@@ -38,5 +38,9 @@ img {
     float: left;
     text-indent: -9999;
     background-color: cornflowerblue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../../images/icon/menu.svg);
   }
 }

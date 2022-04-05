@@ -20,6 +20,7 @@ header {
             float: left;
             text-indent: -9999;
             background-color: cornflowerblue;
+            @include PhotoMenu(center, contain, icon, "menu.svg");
         }
 
     }

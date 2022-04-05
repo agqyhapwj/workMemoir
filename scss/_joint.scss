@@ -49,13 +49,13 @@ $Trem: 1rem;
 }
 
 // 手機版按鈕選單專用
-@mixin PhotoMenu($Position, $Size, $DirPath, $Image) {
+@mixin PhotoMenu($PosiTion, $Size, $DirPath, $Image) {
     // 變數設定: 1.對齊 2.尺寸 3.目錄位置 4.圖片
     // 問題:路徑無法直接讀取變數名稱
     // 解決:scss提供的語法，插入值寫法(基於javascript的es6語法)，自訂#{自訂名稱(英文和數字)}
     // 例:#{Image}寫在路徑上
     background-repeat: no-repeat;
-    background-position: $Position;
+    background-position: $PosiTion;
     background-size: $Size;
-    background-image: url(../../images/#{$Dirpath}/#{Image});
+    background-image: url(../../images/#{$DirPath}/#{$Image});
 }
