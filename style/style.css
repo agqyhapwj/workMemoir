@@ -42,7 +42,7 @@ img {
   header > #MainNav #MenuBtn {
     height: 48px;
     float: left;
-    text-indent: -9999px;
+    text-indent: 10px;
     background-color: #e49dd2;
     background-repeat: no-repeat;
     background-position: center;
@@ -56,7 +56,7 @@ img {
     display: none;
   }
   header > #MainNav .Clear {
-    clear: both;
+    display: none;
   }
   header > #MenuNavOpen {
     display: none;
