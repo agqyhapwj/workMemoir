@@ -1,0 +1,28 @@
+header {
+    width: $W1p * 10;
+
+    > #MainNav {
+        width: $W1p * 10;
+        position: fixed;
+        top: 0;
+        z-index: 999;
+        background-color: gainsboro;
+        @include LogoMenuBtn(8,5);
+
+        // 靠左對齊與(MenuBtn同一行
+        #Logo {
+            float: left;
+            background-color: aqua;
+        }
+        // 靠左對齊與(Logo同一行)
+        #MenuBtn {
+            height: 60px;
+            float: left;
+            text-indent: -9999;
+            background-color: cornflowerblue;
+        }
+
+    }
+
+
+}

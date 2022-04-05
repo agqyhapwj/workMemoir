@@ -18,3 +18,25 @@ img {
 /* You may ont @extecn an outer selector from within @media.
    You may only @extend selectors within the same directiv.
    無法由 @media (媒體判斷)去呼叫「外部連結檔」*/
+@media screen and (max-width: 576px) {
+  header {
+    width: 100%;
+  }
+  header > #MainNav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: gainsboro;
+  }
+  header > #MainNav #Logo {
+    float: left;
+    background-color: aqua;
+  }
+  header > #MainNav #MenuBtn {
+    height: 60px;
+    float: left;
+    text-indent: -9999;
+    background-color: cornflowerblue;
+  }
+}
