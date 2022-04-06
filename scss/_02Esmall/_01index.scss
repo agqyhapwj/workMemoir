@@ -18,7 +18,7 @@ header {
         #MenuBtn {
             height: 48px;
             float: left;
-            text-indent: 12px;
+            text-indent: -9999px;
             background-color: rgb(228, 157, 210);
             @include MenuBtn(center, contain, icon, "menu.svg");
         }

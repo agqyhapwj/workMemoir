@@ -31,7 +31,7 @@ img {
   header > #MainNav #Logo {
     width: 85vw;
   }
-  header > #MainNav #MenuBtnWidth {
+  header > #MainNav #MenuBtn {
     width: 15vw;
   }
   header > #MainNav #Logo {
@@ -41,7 +41,7 @@ img {
   header > #MainNav #MenuBtn {
     height: 48px;
     float: left;
-    text-indent: 12px;
+    text-indent: -9999px;
     background-color: #e49dd2;
     background-repeat: no-repeat;
     background-position: center;
@@ -94,5 +94,6 @@ img {
     width: 100vw;
     overflow: hidden;
     position: relative;
+    margin-top: 20px;
   }
 }

@@ -8,5 +8,9 @@
         // 1.溢位設定:將超出的可視範圍給隱藏 2.定位點:相對定位
         overflow: hidden;
         position: relative;
+        // 給上方停佇點用的「外間距」根據nav的高度做設定
+        margin: {
+            top: 20px;
+        }
     }
 }
