@@ -94,7 +94,7 @@ img {
     width: 100vw;
     overflow: hidden;
     position: relative;
-    margin-top: 20px;
+    margin-top: -9px;
   }
   #Main #Banner .Btn {
     width: 20px;
@@ -126,5 +126,40 @@ img {
     font-size: 50px;
     text-align: center;
     padding-bottom: 250px;
+  }
+  #Main #Banner #ImgBox .Item01 {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/banner/05.jpeg);
+  }
+  #Main #Banner #ImgBox .Item02 {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/banner/04.jpg);
+  }
+  #Main #Banner #ImgBox .Item03 {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/banner/03.jpeg);
+  }
+  #Main #Banner #ImgBox .Item04 {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/banner/02.jpeg);
+  }
+  #Main #Banner #ImgBox .Item05 {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/banner/01.jpg);
   }
 }

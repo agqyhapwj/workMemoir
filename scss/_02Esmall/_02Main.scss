@@ -11,7 +11,7 @@
         position: relative;
         // 給上方停佇點用的「外間距」根據nav的高度做設定
         margin: {
-            top: 20px;
+            top: -9px;
         }
 
         // 父框架的padding 335px - 子框架的padding 250px = 相差值$Differ
@@ -54,9 +54,21 @@
                 text-align: center;
                 padding-bottom: $ImagePadding - $Differ;
             }
-            // .Item01 {
-            //     @include BPhoto(center, cover, banner, )
-            // }
+            .Item01 {
+                @include BPhoto(center, cover, banner, "05.jpeg");
+            }
+            .Item02 {
+                @include BPhoto(center, cover, banner, "04.jpg");
+            }
+            .Item03 {
+                @include BPhoto(center, cover, banner, "03.jpeg");
+            }
+            .Item04 {
+                @include BPhoto(center, cover, banner, "02.jpeg");
+            }
+            .Item05 {
+                @include BPhoto(center, cover, banner, "01.jpg");
+            }
         }
     }
 }
