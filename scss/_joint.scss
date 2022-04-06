@@ -50,7 +50,7 @@ $Trem: 1rem;
 // 2.MenuBtn寬度 = 父框架的總寬度(100) - Logo寬度(85)
 @mixin LogoMenuBtn($WM, $WA) {
     $LogoW: $W10 * $WM + $WA;
-    $MBW: $W10 * 10 - $LogoW;
+    $MenuBtnW: $W10 * 10 - $LogoW;
 
     // 連動計算寬度Logo與MenuBtn
     #Logo {
@@ -60,7 +60,7 @@ $Trem: 1rem;
     
     #MenuBtn {
         // 寬度
-        width: $MBW;
+        width: $MenuBtnW;
     }
 }
 
