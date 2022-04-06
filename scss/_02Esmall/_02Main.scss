@@ -4,6 +4,7 @@
     }
 
     #Banner {
+        // background-color: burlywood;
         width: $W10 *10;
         // 1.溢位設定:將超出的可視範圍給隱藏 2.定位點:相對定位
         overflow: hidden;
@@ -27,6 +28,35 @@
             z-index: 15;
             top: ($ImagePadding / 2) - (95px / 2);
             @include Rounded(15);
+        }
+        // 方向 左邊為0(物件靠左對)；float浮點對齊，配合 上下左右 方向推動
+        .LeftBtn {
+            left: 2.5vw;
+        }
+        .RightBtn {
+            right: 2.5vw;
+        }
+
+        #ImgBox {
+            width: $W10 * 10;
+            @include DNli;
+            // 內間距設定下方間距，當成圖片的高度，單位%或vh
+            padding-bottom: $ImagePadding;
+            background-color: skyblue;
+            li {
+                width: $W10 * 10;
+                float: left;
+                // 絕對定位absolute:單獨呼叫時，原點(0，0)會位於畫面(可視範圍)的左上角
+                // 相對定位relative:單獨呼叫時，功能設為重新定位原點至父框架
+                // 移動圖片位置:不同手機會有不同的中心位置，無法逐一計算，要利用背景圖片方式修改
+                position: absolute;
+                font-size: 50px;
+                text-align: center;
+                padding-bottom: $ImagePadding - $Differ;
+            }
+            // .Item01 {
+            //     @include BPhoto(center, cover, banner, )
+            // }
         }
     }
 }

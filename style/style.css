@@ -107,4 +107,24 @@ img {
     top: 120px;
     border-radius: 15px;
   }
+  #Main #Banner .LeftBtn {
+    left: 2.5vw;
+  }
+  #Main #Banner .RightBtn {
+    right: 2.5vw;
+  }
+  #Main #Banner #ImgBox {
+    width: 100vw;
+    list-style-type: none;
+    padding-bottom: 335px;
+    background-color: skyblue;
+  }
+  #Main #Banner #ImgBox li {
+    width: 100vw;
+    float: left;
+    position: absolute;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 250px;
+  }
 }
