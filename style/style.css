@@ -94,7 +94,6 @@ img {
     width: 100vw;
     overflow: hidden;
     position: relative;
-    margin-top: -9px;
   }
   #Main #Banner .Btn {
     width: 20px;
@@ -109,9 +108,11 @@ img {
   }
   #Main #Banner .LeftBtn {
     left: 2.5vw;
+    background-color: rgba(255, 255, 255, 0.25);
   }
   #Main #Banner .RightBtn {
     right: 2.5vw;
+    background-color: rgba(255, 255, 255, 0.25);
   }
   #Main #Banner #ImgBox {
     width: 100vw;
