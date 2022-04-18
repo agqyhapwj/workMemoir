@@ -20,7 +20,7 @@ header {
             float: left;
             text-indent: -9999px;
             background-color: rgb(228, 157, 210);
-            @include MenuBtn(center, contain, icon, "menu.svg");
+            @include PhoneMenu(center, contain, icon, "menu.svg");
         }
 
         // icon在手機版是隱藏的
