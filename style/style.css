@@ -160,4 +160,13 @@ img {
     background-size: cover;
     background-image: url(../../images/banner/01.jpg);
   }
+  #Main #PhotoShare {
+    background-image: url(../../images/Background/002.jpg);
+  }
+  #Main #PhotoShare h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
 }

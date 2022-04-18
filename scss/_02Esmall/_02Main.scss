@@ -70,4 +70,17 @@
             }
         }
     }
+
+    #PhotoShare{
+        // 背景底圖
+        background-image: url(../../images/Background/002.jpg);
+        h1 {
+            font-size: $Trem * 1.2;
+            text-align: center;
+            padding: {
+                top: 5px;
+                bottom: 5px;
+            }
+        }
+    }
 }
