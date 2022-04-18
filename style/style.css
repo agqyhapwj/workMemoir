@@ -87,9 +87,6 @@ img {
   footer #Address {
     display: none;
   }
-  #Main img {
-    padding-top: 2.2rem;
-  }
   #Main #Banner {
     width: 100vw;
     overflow: hidden;
