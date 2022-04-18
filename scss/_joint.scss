@@ -95,12 +95,53 @@ $Trem: 1rem;
     border-radius: $Num + px;
 }
 
-// PhotoShare相片分享區架構
+// PhotoShare相片分享區架構 （ 同上次專案的「商品區 架構」）
 // $TWM(Title寬度倍數) $TFSM(Title文字大小倍數) $NFSM(Number文字大小倍數
 // $MainW(Main的寬度)  $BGCR(背景色R) $$BGCG(背景色G) $BGCB(背景色B)
 // $TitleLe(Title字距) $ImageRd(圖片圓角矩形)   $Lines(圖片邊框粗細)
-@mixin PhotoShares($TWM, $TFSM, $NFSM, $MainW, $BGCR, $BGCG, $BGCB, $TitleLe, $ImageRd, $Lines) {
+@mixin PhotoShares($TWM, $TFSM, $NFSM, $MainW, $BGCR, $BGCG, $BGCB, $TitleLe, $ImagesRa, $Lines) {
     // 計算式
     $TW: $W1p * $TWM;
     $NW: $W1p * 10 - $TW;
+
+    $TFS: $Trem * $TFSM;
+    $NFS: $Trem * $NFSM;
+
+    // 寬度
+    width: $W1p * $MainW;
+    // 外間距
+    margin: {
+        bottom: 20px;
+    }
+    // 背景顏色
+    background-color: rgb($BR, $BG, $BB, $TitleLe);
+    // 陰影 x軸 y軸　模糊 顏色
+    box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.25);
+
+    > .Images {
+        width: 280px;
+        //外間距
+        margin: {
+            bottom: 10px;
+        } 
+        // 圓角矩形 邊框設定轉角的角度
+        border-radius: $ImagesRa;
+
+        > a {
+            > img {
+                // 圖片邊框 線段粗細 線段樣式 (實線) 顏色
+                border: $Lines solid rgb(68, 7, 7);
+                border-radius: $ImagesRa;
+            }
+        }
+    }
+
+    .PhotoBrief {
+        width: $W1p * 8.5;
+        text-align:justify;
+        background-color:aqua;
+        margin: {
+            bottom: 10px;
+        }
+    }
 }
