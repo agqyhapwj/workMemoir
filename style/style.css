@@ -8,6 +8,7 @@ body, html {
   width: 100%;
   max-width: 100vw;
   height: 100%;
+  background-image: url(../../images/Background/002.jpg);
 }
 
 img {
@@ -91,8 +92,11 @@ img {
   footer #Address {
     display: none;
   }
+  #Main {
+    background-image: url(../../images/Background/002.jpg);
+  }
   #Main #Banner {
-    width: 100vw;
+    width: 90vw;
     overflow: hidden;
     position: relative;
     margin-top: 40px;
