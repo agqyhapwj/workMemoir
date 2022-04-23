@@ -54,7 +54,7 @@
                 padding-bottom: $ImagePadding - $Differ;
             }
             .Item01 {
-                @include BPhoto(center, cover, banner, "05.jpeg");
+                @include BPhoto(center, cover, banner, "05.jpg");
             }
             .Item02 {
                 @include BPhoto(center, cover, banner, "04.jpg");
