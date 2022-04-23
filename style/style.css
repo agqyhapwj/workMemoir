@@ -124,6 +124,7 @@ img {
   }
   #Main #Banner #ImgBox li {
     width: 100vw;
+    height: 18vw;
     float: left;
     position: absolute;
     font-size: 50px;
