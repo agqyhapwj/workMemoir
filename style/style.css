@@ -60,6 +60,9 @@ img {
   header > #MenuNavOpen {
     display: none;
   }
+  footer {
+    background-image: url(../../images/Background/002.jpg);
+  }
   footer hr {
     margin-bottom: 1rem;
   }
