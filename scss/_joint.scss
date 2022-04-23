@@ -98,7 +98,7 @@ $Trem: 1rem;
 // PhotoShare相片分享區架構 （ 同上次專案的「商品區 架構」）
 // $TWM(Title寬度倍數) $TFSM(Title文字大小倍數) $NFSM(Number文字大小倍數
 // $MainW(Main的寬度)  $BGCR(背景色R) $$BGCG(背景色G) $BGCB(背景色B)
-// $TitleLe(Title字距) $ImageRd(圖片圓角矩形)   $Lines(圖片邊框粗細)
+// $TitleLe(Title字距) $ImagesRa(圖片圓角矩形)   $Lines(圖片邊框粗細)
 @mixin PhotoShares($TWM, $TFSM, $NFSM, $MainW, $BGCR, $BGCG, $BGCB, $TitleLe, $ImagesRa, $Lines) {
     // 計算式
     $TW: $W1p * $TWM;
