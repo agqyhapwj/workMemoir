@@ -91,6 +91,28 @@
                 margin: {
                     bottom: 20px;
                 }
+                box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.5);
+
+                > .Null {
+                    height: 10px;
+                }
+
+                > .Images {
+                    width: $W1p * 9.2;
+                    margin: {
+                        bottom: 10px;
+                    }
+                    border-radius: 15px;
+
+                    > a {
+                        > img {
+                            // 圖片邊框:線段粗細 線段樣式(實線) 黑色
+                            border: 1.5px solid rgb(0, 0, 0);
+                            border-radius: 15px;
+                        }
+                    }
+                }
+                
             }
         }
     }
