@@ -13,11 +13,12 @@ header {
         // 靠左對齊與(MenuBtn同一行
         #Logo {
             float: left;
+            height: 40px;
             background-color: rgb(179, 243, 243);
         }
         // 靠左對齊與(Logo同一行)
         #MenuBtn {
-            height: 48px;
+            height: 40px;
             float: left;
             text-indent: -9999px;
             background-color: rgb(228, 157, 210);
@@ -55,22 +56,23 @@ footer {
     nav {
         margin-bottom: 1rem;
         ul {
-            width: 80%;
+            width: 90%;
             display: flex;
             @include DNli;
             li > a {
                 color: black;
                 text-decoration: none;
+                font-size: 17px;
             }
         }
     }
     // 版權宣告置中
-    div {
+    #CopyRight {
         margin-bottom: 0.7rem;
-        h4 {
-            text-align: center;
-            padding-bottom: 1rem;
-        }
+        text-align: center;
+        font-size: 15px;
+        padding-bottom: 0.5rem;
+        
     }
 
     #Address {

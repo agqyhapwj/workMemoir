@@ -80,12 +80,12 @@
         $NFS: $Trem * 1.1;
         // 背景底圖
         background-image: url(../../images/Background/002.jpg);
-        h1 {
+        h3 {
             font-size: $Trem * 1.2;
             text-align: center;
             padding: {
-                top: 5px;
-                bottom: 5px;
+                top: 0px;
+                bottom: 0px;
             }
         }
     }

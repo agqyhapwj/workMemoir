@@ -36,10 +36,11 @@ img {
   }
   header > #MainNav #Logo {
     float: left;
+    height: 40px;
     background-color: #b3f3f3;
   }
   header > #MainNav #MenuBtn {
-    height: 48px;
+    height: 40px;
     float: left;
     text-indent: -9999px;
     background-color: #e49dd2;
@@ -70,7 +71,7 @@ img {
     margin-bottom: 1rem;
   }
   footer nav ul {
-    width: 80%;
+    width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -79,13 +80,13 @@ img {
   footer nav ul li > a {
     color: black;
     text-decoration: none;
+    font-size: 17px;
   }
-  footer div {
+  footer #CopyRight {
     margin-bottom: 0.7rem;
-  }
-  footer div h4 {
     text-align: center;
-    padding-bottom: 1rem;
+    font-size: 15px;
+    padding-bottom: 0.5rem;
   }
   footer #Address {
     display: none;
@@ -167,10 +168,10 @@ img {
   #Main #PhotoShare {
     background-image: url(../../images/Background/002.jpg);
   }
-  #Main #PhotoShare h1 {
+  #Main #PhotoShare h3 {
     font-size: 1.2rem;
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
