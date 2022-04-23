@@ -8,20 +8,20 @@ header {
         z-index: 999;
         // background-color: rgb(238, 104, 104);
         // background-image: url(../../images/Background/002.jpg);
-        @include LogoMenuBtn(8, 5vw);
+        @include LogoMenuBtn(7, 9vw);
 
         // 靠左對齊與(MenuBtn同一行
         #Logo {
             float: left;
             height: 40px;
-            background-color: rgb(179, 243, 243);
+            // background-color: rgb(179, 243, 243);
         }
         // 靠左對齊與(Logo同一行)
         #MenuBtn {
             height: 40px;
             float: left;
             text-indent: -9999px;
-            background-color: rgb(228, 157, 210);
+            // background-color: rgb(228, 157, 210);
             @include PhoneMenu(center, contain, icon, "menu.svg");
         }
 

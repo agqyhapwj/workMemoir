@@ -30,21 +30,19 @@ img {
     z-index: 999;
   }
   header > #MainNav #Logo {
-    width: 85vw;
+    width: 79vw;
   }
   header > #MainNav #MenuBtn {
-    width: 15vw;
+    width: 21vw;
   }
   header > #MainNav #Logo {
     float: left;
     height: 40px;
-    background-color: #b3f3f3;
   }
   header > #MainNav #MenuBtn {
     height: 40px;
     float: left;
     text-indent: -9999px;
-    background-color: #e49dd2;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
