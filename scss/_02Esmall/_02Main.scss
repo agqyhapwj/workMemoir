@@ -113,6 +113,14 @@
                         }
                     }
                 }
+
+                > .PhotoBrief {
+                    width: $W1p * 8.8;
+                    text-align: justify;
+                    padding: {
+                        bottom: 3px;
+                    }
+                }
                 
             }
         }

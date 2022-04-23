@@ -199,4 +199,9 @@ img {
     border: 1.5px solid black;
     border-radius: 5px;
   }
+  #Main > #PhotoShare > article > .ImgShare > .PhotoBrief {
+    width: 88%;
+    text-align: justify;
+    padding-bottom: 3px;
+  }
 }
