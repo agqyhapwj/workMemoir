@@ -192,6 +192,6 @@ img {
   }
   #Main > #PhotoShare > article > .ImgShare > .Images > a > img {
     border: 1.5px solid black;
-    border-radius: 15px;
+    border-radius: 5px;
   }
 }
