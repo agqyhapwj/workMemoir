@@ -168,10 +168,12 @@ img {
   #Main #PhotoShare {
     background-image: url(../../images/Background/002.jpg);
   }
-  #Main #PhotoShare h3 {
-    font-size: 1.2rem;
-    text-align: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
+  #Main #PhotoShare #TextLifeShare {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
