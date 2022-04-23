@@ -91,6 +91,7 @@ img {
     width: 100vw;
     overflow: hidden;
     position: relative;
+    margin-top: 48px;
   }
   #Main #Banner .Btn {
     width: 20px;
@@ -130,7 +131,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url(../../images/banner/05.jpeg);
+    background-image: url(../../images/banner/05.jpg);
   }
   #Main #Banner #ImgBox .Item02 {
     width: 100vw;
