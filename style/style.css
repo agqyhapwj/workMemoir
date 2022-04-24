@@ -28,6 +28,7 @@ img {
     position: fixed;
     top: 0;
     z-index: 999;
+    background-image: url(../../images/Background/002.jpg);
   }
   header > #MainNav #Logo {
     width: 79vw;
