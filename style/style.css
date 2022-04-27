@@ -108,7 +108,7 @@ img {
     font-size: 1.2rem;
     position: absolute;
     z-index: 15;
-    top: 120px;
+    top: 77.5px;
     border-radius: 15px;
   }
   #Main #Banner .LeftBtn {
@@ -122,7 +122,7 @@ img {
   #Main #Banner #ImgBox {
     width: 100vw;
     list-style-type: none;
-    padding-bottom: 335px;
+    padding-bottom: 250px;
     background-color: skyblue;
   }
   #Main #Banner #ImgBox li {
@@ -132,7 +132,7 @@ img {
     position: absolute;
     font-size: 50px;
     text-align: center;
-    padding-bottom: 277px;
+    padding-bottom: 260px;
   }
   #Main #Banner #ImgBox .Item01 {
     width: 100vw;
