@@ -39,6 +39,7 @@ img {
   header > #MainNav #Logo {
     float: left;
     height: 40px;
+    opacity: 0.85;
   }
   header > #MainNav #MenuBtn {
     height: 40px;
@@ -48,6 +49,7 @@ img {
     background-position: center;
     background-size: contain;
     background-image: url(../../images/icon/menu.svg);
+    opacity: 0.85;
   }
   header > #MainNav #icon {
     display: none;

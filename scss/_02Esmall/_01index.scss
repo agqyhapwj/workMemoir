@@ -15,6 +15,7 @@ header {
             float: left;
             height: 40px;
             // background-color: rgb(179, 243, 243);
+            opacity: 0.85;
         }
         // 靠左對齊與(Logo同一行)
         #MenuBtn {
@@ -23,6 +24,7 @@ header {
             text-indent: -9999px;
             // background-color: rgb(228, 157, 210);
             @include PhoneMenu(center, contain, icon, "menu.svg");
+            opacity: 0.85;
         }
 
         // icon在手機版是隱藏的
