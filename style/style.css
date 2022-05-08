@@ -24,8 +24,8 @@ img {
     width: 100%;
   }
   header > #MainNav {
-    width: 100%;
     position: fixed;
+    width: 100%;
     top: 0;
     z-index: 999;
     background-image: url(../../images/Background/002.jpg);
@@ -39,11 +39,16 @@ img {
   header > #MainNav #Logo {
     float: left;
     height: 40px;
+    padding-bottom: 8px;
     opacity: 0.85;
   }
+  header > #MainNav #Logo > span {
+    font-size: 40px;
+  }
   header > #MainNav #MenuBtn {
-    height: 40px;
     float: left;
+    height: 40px;
+    padding-top: 5px;
     text-indent: -9999px;
     background-repeat: no-repeat;
     background-position: center;
