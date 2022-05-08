@@ -222,7 +222,7 @@ img {
     width: 100%;
     top: 0;
     z-index: 999;
-    background-image: url(../../images/Background/002.jpg);
+    background-image: url(../../images/Background/001.jpg);
   }
   header > #MainNav #Logo {
     width: 85vw;
@@ -264,7 +264,7 @@ img {
     display: none;
   }
   footer {
-    background-image: url(../../images/Background/002.jpg);
+    background-image: url(../../images/Background/001.jpg);
   }
   footer hr {
     margin-bottom: 0.5rem;
@@ -291,5 +291,13 @@ img {
   }
   footer #Address {
     display: none;
+  }
+  #Main {
+    background-image: url(../../images/Background/001.jpg);
+  }
+  #Main #Banner {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
   }
 }
