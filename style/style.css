@@ -64,7 +64,7 @@ img {
     display: none;
   }
   header > #MainNav .Clear {
-    display: none;
+    clear: both;
   }
   header > #MenuNavOpen {
     display: none;
@@ -75,17 +75,17 @@ img {
   footer hr {
     margin-bottom: 0.5rem;
   }
-  footer nav {
+  footer .SmallNav {
     margin-bottom: 1rem;
   }
-  footer nav ul {
+  footer .SmallNav ul {
     width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     list-style-type: none;
   }
-  footer nav ul li > a {
+  footer .SmallNav ul li > a {
     color: black;
     text-decoration: none;
     font-size: 17px;
@@ -210,5 +210,86 @@ img {
     width: 88%;
     text-align: justify;
     padding-bottom: 3px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  header {
+    width: 100%;
+  }
+  header > #MainNav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    background-image: url(../../images/Background/002.jpg);
+  }
+  header > #MainNav #Logo {
+    width: 85vw;
+  }
+  header > #MainNav #MenuBtn {
+    width: 15vw;
+  }
+  header > #MainNav #Logo {
+    font-size: 30px;
+    float: left;
+    height: 40px;
+    padding-bottom: 15px;
+    opacity: 0.85;
+  }
+  header > #MainNav #Logo > span {
+    font-size: 45px;
+  }
+  header > #MainNav #MenuBtn {
+    float: left;
+    height: 40px;
+    margin-top: 8px;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../../images/icon/menu.svg);
+    opacity: 0.85;
+  }
+  header > #MainNav #icon {
+    display: none;
+  }
+  header > #MainNav .BtnBox {
+    display: none;
+  }
+  header > #MainNav .Clear {
+    clear: both;
+  }
+  header #MenuNavOpen {
+    display: none;
+  }
+  footer {
+    background-image: url(../../images/Background/002.jpg);
+  }
+  footer hr {
+    margin-bottom: 0.5rem;
+  }
+  footer .SmallNav {
+    margin-bottom: 0.7rem;
+  }
+  footer .SmallNav ul {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+  }
+  footer .SmallNav ul li > a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  footer #CopyRight {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 0.5rem;
+  }
+  footer #Address {
+    display: none;
   }
 }

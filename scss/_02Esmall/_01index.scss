@@ -42,7 +42,7 @@ header {
         }
         // 在html裡有建立「清除浮動樣式的空白段落在36行 <p class="Clear"></p>」
         .Clear {
-            @include DN;
+            @include ClearFloat;
         }
     }
 
@@ -61,7 +61,7 @@ footer {
     }
 
     // 頁尾手機版次導覽列置中
-    nav {
+    .SmallNav {
         margin-bottom: 1rem;
         ul {
             width: 90%;
