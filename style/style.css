@@ -365,4 +365,12 @@ img {
     background-size: cover;
     background-image: url(../../images/banner/05.jpg);
   }
+  #Main #PhotoShare #TextLifeShare {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
