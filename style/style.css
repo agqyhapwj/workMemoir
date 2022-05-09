@@ -300,4 +300,29 @@ img {
     overflow: hidden;
     position: relative;
   }
+  #Main #Banner .Btn {
+    width: 20px;
+    height: 95px;
+    line-height: 95px;
+    font-size: 1.2rem;
+    text-align: center;
+    position: absolute;
+    z-index: 15;
+    top: 145px;
+    border-radius: 15px;
+  }
+  #Main #Banner .LeftBtn {
+    left: 2.5vw;
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  #Main #Banner .RightBtn {
+    right: 2.5vw;
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  #Main #Banner #ImgBox {
+    width: 100vw;
+    list-style-type: none;
+    padding-bottom: 385px;
+    background-color: aqua;
+  }
 }
