@@ -50,8 +50,8 @@
                 // 相對定位relative:單獨呼叫時，功能設為重新定位原點至父框架
                 // 移動圖片位置:不同手機會有不同的中心位置，無法逐一計算，要利用背景圖片方式修改
                 position: absolute;
-                font-size: 50px;
-                text-align: center;
+                // font-size: 50px;
+                // text-align: center;
                 padding-bottom: $ImagePadding - $Differ;
             }
             .Item01 {
