@@ -73,14 +73,7 @@
     }
 
     > #PhotoShare{
-        // 計算式 
-        $TW: $W1p * 7;
-        $NW: $W1p * 10 - $TW;
-
-        $TFS: $Trem * 1.7;
-        $NFS: $Trem * 1.1;
-        // 背景底圖
-        background-image: url(../../images/Background/002.jpg);
+        
         #TextLifeShare {
             display: flex;
             justify-content: center;
