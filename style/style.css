@@ -103,7 +103,7 @@ img {
     background-image: url(../../images/Background/002.jpg);
   }
   #Main #Banner {
-    width: 90vw;
+    width: 100vw;
     overflow: hidden;
     position: relative;
     margin-top: 40px;
@@ -373,5 +373,10 @@ img {
   #Main #PhotoShare article > .ImgShare {
     width: 90vw;
     margin-bottom: 20px;
+    -webkit-box-shadow: 2.5px, 2.5px, 8px rgba(0, 0, 0, 0.5);
+            box-shadow: 2.5px, 2.5px, 8px rgba(0, 0, 0, 0.5);
+  }
+  #Main #PhotoShare article > .ImgShare > .Null {
+    height: 2.5px;
   }
 }
