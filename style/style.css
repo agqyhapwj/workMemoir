@@ -362,21 +362,44 @@ img {
     background-size: cover;
     background-image: url(../../images/banner/05.jpg);
   }
-  #Main #PhotoShare #TextLifeShare {
+  #Main > #PhotoShare #TextLifeShare {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-top: 15px;
   }
-  #Main #PhotoShare article > .ImgShare {
-    width: 90vw;
+  #Main > #PhotoShare > article {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  #Main > #PhotoShare > article > .ImgShare {
+    width: 45vw;
     margin-bottom: 20px;
-    -webkit-box-shadow: 2.5px, 2.5px, 8px rgba(0, 0, 0, 0.5);
-            box-shadow: 2.5px, 2.5px, 8px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.5);
+            box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.5);
   }
-  #Main #PhotoShare article > .ImgShare > .Null {
-    height: 2.5px;
+  #Main > #PhotoShare > article > .ImgShare > .Null {
+    height: 10px;
+  }
+  #Main > #PhotoShare > article > .ImgShare > .Images {
+    width: 92%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+  }
+  #Main > #PhotoShare > article > .ImgShare > .Images > a > img {
+    border: 1.5px solid black;
+    border-radius: 5px;
+  }
+  #Main > #PhotoShare > article > .ImgShare > .PhotoBrief {
+    width: 88%;
+    text-align: justify;
+    padding-bottom: 3px;
   }
 }

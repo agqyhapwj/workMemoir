@@ -41,25 +41,57 @@
             .Item05 {@include BPhoto(center, cover, banner,"05.jpg");}
         }
     }
-    #PhotoShare {
-        
-        #TextLifeShare {
-                display: flex;
-                justify-content: center;
-        }
-
-        article {
-            > .ImgShare {
-                width: $W10 * 9;
-                margin-bottom: 20px;
-                box-shadow: 2.5px, 2.5px, 8px rgba(0, 0, 0, 0.5);
-
-                > .Null {
-                    height: 2.5px;
-                }
-
-              
-            }
-        }
-    }
+    
+         >#PhotoShare {
+    
+             #TextLifeShare {
+                 display: flex;
+                 justify-content: center;
+                 margin-top: 15px;
+             }
+    
+             >article {
+                //  一行兩欄
+                display: inline-flex;
+                flex-wrap: wrap;
+                 margin-top: 15px;
+                 >.ImgShare {
+                     width: $W10 * 4.5;
+                     margin-bottom: 20px;
+                     box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.5);
+    
+                     >.Null {
+                         height: 10px;
+                     }
+    
+                     >.Images {
+                         width: $W1p * 9.2;
+    
+                         margin: {
+                             bottom: 10px;
+                         }
+    
+                         border-radius: 15px;
+    
+                         >a {
+                             >img {
+                                 // 圖片邊框:線段粗細 線段樣式(實線) 黑色
+                                 border: 1.5px solid rgb(0, 0, 0);
+                                 border-radius: 5px;
+                             }
+                         }
+                     }
+    
+                     >.PhotoBrief {
+                         width: $W1p * 8.8;
+                         text-align: justify;
+    
+                         padding: {
+                             bottom: 3px;
+                         }
+                     }
+    
+                 }
+             }
+         }
 }
