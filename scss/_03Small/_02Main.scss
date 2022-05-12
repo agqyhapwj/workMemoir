@@ -46,6 +46,13 @@
         #TextLifeShare {
                 display: flex;
                 justify-content: center;
+        }
+
+        article {
+            > .ImgShare {
+                width: $W10 * 9;
+                margin-bottom: 20px;
             }
+        }
     }
 }

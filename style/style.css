@@ -370,4 +370,8 @@ img {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  #Main #PhotoShare article > .ImgShare {
+    width: 90vw;
+    margin-bottom: 20px;
+  }
 }
