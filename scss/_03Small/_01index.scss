@@ -19,7 +19,7 @@ header {
             // background-color: rgb(179, 243, 243);
             opacity: 0.85;
     
-            >span {
+            .TG {
                 font-size: 45px;
             }
         }
@@ -85,6 +85,6 @@ footer {
     }
 
     #Address {
-        @include DN;
+        display: none;
     }
 }
