@@ -40,13 +40,13 @@ img {
     font-size: 30px;
     float: left;
     height: 10px;
-    margin-top: 8px;
+    margin-top: 4px;
     opacity: 0.85;
   }
   header > #MainNav #MenuBtn {
     float: left;
     height: 40px;
-    margin-top: 8px;
+    margin-top: 4px;
     text-indent: -9999px;
     background-repeat: no-repeat;
     background-position: center;
