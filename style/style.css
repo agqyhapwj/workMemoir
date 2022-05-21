@@ -401,7 +401,7 @@ img {
     width: 100%;
     top: 0;
     z-index: 999;
-    background-image: url(../../images/Background/002.jpg);
+    background-image: url(../../images/Background/pencil.jpg);
   }
   header #MainNav #Logo {
     width: 92vw;
@@ -465,5 +465,8 @@ img {
   }
   footer #Address {
     display: none;
+  }
+  #Main {
+    background-image: url(../../images/Background/pencil.jpg);
   }
 }
