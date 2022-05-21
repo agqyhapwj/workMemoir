@@ -214,23 +214,19 @@ img {
     background-image: url(../../images/Background/001.jpg);
   }
   header > #MainNav #Logo {
-    width: 85vw;
+    width: 92vw;
   }
   header > #MainNav #MenuBtn {
-    width: 15vw;
+    width: 8vw;
   }
   header > #MainNav #Logo {
     font-size: 30px;
     float: left;
-    height: 40px;
     opacity: 0.85;
-  }
-  header > #MainNav #Logo .TG {
-    font-size: 45px;
   }
   header > #MainNav #MenuBtn {
     float: left;
-    height: 40px;
+    height: 45px;
     text-indent: -9999px;
     background-repeat: no-repeat;
     background-position: center;
