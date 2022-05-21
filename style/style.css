@@ -39,12 +39,9 @@ img {
   header > #MainNav #Logo {
     font-size: 30px;
     float: left;
-    height: 40px;
-    padding-bottom: 15px;
+    height: 10px;
+    margin-top: 8px;
     opacity: 0.85;
-  }
-  header > #MainNav #Logo .TG {
-    font-size: 45px;
   }
   header > #MainNav #MenuBtn {
     float: left;
