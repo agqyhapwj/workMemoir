@@ -8,20 +8,19 @@ header{
         width: $W1p * 10;
         top: 0;
         z-index: 999;
-        @include LogoMenuBtn(9,0vw);
+        @include LogoMenuBtn(9,2vw);
         background-image: url(../../images/Background/002.jpg);
 
         #Logo {
-            font-size: 30px;
+            font-size: 38px;
             float: left;
-            height: 40px;
-            padding-bottom: 15px;
+            margin-top: 5px;
             opacity: 0.85;
         }
         #MenuBtn {
             float: left;
-            height: 40px;
-            margin-top: 8px;
+            height: 50px;
+            margin-top: 5px;
             @include PhoneMenu(center, contain, icon, "menu.svg");
             opacity: 0.85;
         }

@@ -404,22 +404,21 @@ img {
     background-image: url(../../images/Background/002.jpg);
   }
   header #MainNav #Logo {
-    width: 90vw;
+    width: 92vw;
   }
   header #MainNav #MenuBtn {
-    width: 10vw;
+    width: 8vw;
   }
   header #MainNav #Logo {
-    font-size: 30px;
+    font-size: 38px;
     float: left;
-    height: 40px;
-    padding-bottom: 15px;
+    margin-top: 5px;
     opacity: 0.85;
   }
   header #MainNav #MenuBtn {
     float: left;
-    height: 40px;
-    margin-top: 8px;
+    height: 50px;
+    margin-top: 5px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
