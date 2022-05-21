@@ -31,10 +31,10 @@ img {
     background-image: url(../../images/Background/002.jpg);
   }
   header > #MainNav #Logo {
-    width: 79vw;
+    width: 85vw;
   }
   header > #MainNav #MenuBtn {
-    width: 21vw;
+    width: 15vw;
   }
   header > #MainNav #Logo {
     font-size: 30px;
@@ -224,7 +224,6 @@ img {
     font-size: 30px;
     float: left;
     height: 40px;
-    padding-bottom: 15px;
     opacity: 0.85;
   }
   header > #MainNav #Logo .TG {
@@ -233,7 +232,6 @@ img {
   header > #MainNav #MenuBtn {
     float: left;
     height: 40px;
-    margin-top: 8px;
     text-indent: -9999px;
     background-repeat: no-repeat;
     background-position: center;
