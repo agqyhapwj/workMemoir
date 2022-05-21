@@ -469,4 +469,76 @@ img {
   #Main {
     background-image: url(../../images/Background/pencil.jpg);
   }
+  #Main #Banner {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+  }
+  #Main #Banner .Btn {
+    width: 20px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 1.2rem;
+    text-align: center;
+    position: absolute;
+    z-index: 15;
+    top: 210px;
+    border-radius: 15px;
+  }
+  #Main #Banner .LeftBtn {
+    left: 2.5vw;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  #Main #Banner .RightBtn {
+    right: 2.5vw;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  #Main #Banner #ImgBox {
+    width: 100vw;
+    list-style-type: none;
+    padding-bottom: 400px;
+    background-color: gray;
+  }
+  #Main #Banner #ImgBox li {
+    width: 100vw;
+    height: 40vw;
+    float: left;
+    position: absolute;
+    padding-bottom: 350px;
+  }
+  #Main #Banner #ImgBox .Item01 {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/banner/01.jpg);
+  }
+  #Main #Banner #ImgBox .Item02 {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/banner/02.jpg);
+  }
+  #Main #Banner #ImgBox .Item03 {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/banner/03.jpg);
+  }
+  #Main #Banner #ImgBox .Item04 {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/banner/04.jpg);
+  }
+  #Main #Banner #ImgBox .Item05 {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/banner/05.jpg);
+  }
 }
