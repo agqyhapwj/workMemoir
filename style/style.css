@@ -470,9 +470,11 @@ img {
     background-image: url(../../images/Background/pencil.jpg);
   }
   #Main #Banner {
-    width: 100vw;
+    width: 95vw;
     overflow: hidden;
     position: relative;
+    -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
   }
   #Main #Banner .Btn {
     width: 20px;
