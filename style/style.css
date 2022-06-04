@@ -569,6 +569,20 @@ img {
             box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.5);
   }
   #Main #PhotoShare > article > .ImgShare .Null {
-    height: 10px;
+    height: 12px;
+  }
+  #Main #PhotoShare > article > .ImgShare > .Images {
+    width: 92%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+  }
+  #Main #PhotoShare > article > .ImgShare > .Images > a > img {
+    border: 1.5px solid black;
+    border-radius: 10px;
+  }
+  #Main #PhotoShare > article > .ImgShare > .PhotoBrief {
+    width: 90%;
+    text-align: justify;
+    padding-bottom: 8px;
   }
 }
