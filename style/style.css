@@ -589,6 +589,36 @@ img {
 
 @media screen and (min-width: 992px) {
   header {
-    width: 100vw;
+    width: 95vw;
+  }
+  header #MainNav {
+    position: fixed;
+    width: 95%;
+    top: 0;
+    z-index: 999;
+    background-image: url(../../images/Background/002.jpg);
+  }
+  header #MainNav #Logo {
+    width: 92vw;
+  }
+  header #MainNav #MenuBtn {
+    width: 8vw;
+  }
+  header #MainNav #Logo {
+    font-size: 35px;
+    float: left;
+    margin-top: auto;
+    margin-left: 13px;
+    opacity: 0.85;
+  }
+  header #MainNav #MenuBtn {
+    float: right;
+    height: 50px;
+    margin-top: -47px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../../images/icon/menu.svg);
+    opacity: 0.85;
   }
 }

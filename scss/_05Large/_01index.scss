@@ -1,5 +1,29 @@
 // 大平版裝置 >=992px Large min-width(最大寬度 含等於) ipad/pro
 header {
-    width: $W10 * 10;
-    
+    width: $W10 * 9.5;
+
+    #MainNav {
+        position: fixed;
+        width: $W1p * 9.5;
+        top: 0;
+        z-index: 999;
+        @include LogoMenuBtn(9, 2vw);
+        background-image: url(../../images/Background/002.jpg);
+
+        #Logo {
+            font-size: 35px;
+            float: left;
+            margin-top: auto;
+            margin-left: 13px;
+            opacity: 0.85;
+        }
+
+        #MenuBtn {
+            float: right;
+            height: 50px;
+            margin-top: -47px;
+            @include PhoneMenu(center, contain, icon, "menu.svg");
+            opacity: 0.85;
+        }
+    }
 }
