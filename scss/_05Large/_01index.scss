@@ -43,3 +43,38 @@ header {
         }
     }
 }
+
+footer {
+    background-image: url(../../images/Background/002.jpg);
+
+    .SmallNav {
+        margin-bottom: 0.7rem;
+        
+        ul {
+            width: 90;
+            display: flex;
+            @include DNli;
+        
+            li>a {
+                color: black;
+                text-decoration: none;
+                font-size: 25px;
+            }
+        }
+    }
+        
+    #CopyRight {
+        text-align: center;
+        font-size: 25px;
+        padding-bottom: 0.5rem;
+    }
+
+    #Address {
+        display: block;
+
+        #Information {
+            list-style-type: none;
+            // width: $W1p * 10;
+        }
+    }
+}

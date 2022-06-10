@@ -636,4 +636,33 @@ img {
     font-size: 25px;
     width: 95vw;
   }
+  footer {
+    background-image: url(../../images/Background/002.jpg);
+  }
+  footer .SmallNav {
+    margin-bottom: 0.7rem;
+  }
+  footer .SmallNav ul {
+    width: 90;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+  }
+  footer .SmallNav ul li > a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  footer #CopyRight {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 0.5rem;
+  }
+  footer #Address {
+    display: block;
+  }
+  footer #Address #Information {
+    list-style-type: none;
+  }
 }
