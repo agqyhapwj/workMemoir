@@ -1,6 +1,7 @@
 // 大平版裝置 >=992px Large min-width(最大寬度 含等於) ipad/pro
 header {
     width: $W10 * 9.5;
+    display: flex;
 
     #MainNav {
         position: fixed;
@@ -15,15 +16,30 @@ header {
             float: left;
             margin-top: auto;
             margin-left: 13px;
-            opacity: 0.85;
+            width: $W10 * 7;
         }
 
         #MenuBtn {
-            float: right;
-            height: 50px;
-            margin-top: -47px;
-            @include PhoneMenu(center, contain, icon, "menu.svg");
-            opacity: 0.85;
+            display: none;
+        }
+
+        #icon {
+            display: block;
+            list-style-type: none;
+            display: flex;
+            font-size: 25px;
+            width: $W10 * 2;
+            padding-left: 10px;
+        }
+
+        .BtnBox {
+            display: block;
+            list-style-type: none;
+            display: flex;
+            font-size: 25px;
+            width: $W10 * 9.5;
+            // padding-left: 390px;
+
         }
     }
 }

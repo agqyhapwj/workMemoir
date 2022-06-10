@@ -590,6 +590,9 @@ img {
 @media screen and (min-width: 992px) {
   header {
     width: 95vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   header #MainNav {
     position: fixed;
@@ -609,16 +612,28 @@ img {
     float: left;
     margin-top: auto;
     margin-left: 13px;
-    opacity: 0.85;
+    width: 70vw;
   }
   header #MainNav #MenuBtn {
-    float: right;
-    height: 50px;
-    margin-top: -47px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    background-image: url(../../images/icon/menu.svg);
-    opacity: 0.85;
+    display: none;
+  }
+  header #MainNav #icon {
+    display: block;
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 25px;
+    width: 20vw;
+    padding-left: 10px;
+  }
+  header #MainNav .BtnBox {
+    display: block;
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 25px;
+    width: 95vw;
   }
 }
