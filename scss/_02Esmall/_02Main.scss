@@ -68,6 +68,7 @@
                 @include BPhoto(center, cover, banner, "02.jpg");
             }
             .Item05 {
+                margin-left: -15px;
                 @include BPhoto(center, cover, banner, "0.jpg");
             }
         }

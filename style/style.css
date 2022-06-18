@@ -163,6 +163,7 @@ img {
     background-image: url(../../images/banner/02.jpg);
   }
   #Main #Banner #ImgBox .Item05 {
+    margin-left: -15px;
     width: 100vw;
     background-repeat: no-repeat;
     background-position: center;
