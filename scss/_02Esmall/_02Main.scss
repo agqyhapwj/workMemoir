@@ -13,8 +13,8 @@
         }
 
         // 父框架的padding 335px - 子框架的padding 250px = 相差值$Differ
-        $ImagePadding: 250px;
-        $Differ: -10;
+        $ImagePadding: 300px;
+        $Differ: 50;
         .Btn {
             // 1水平置中 2垂直置中:高度=行距 3位置:絕對定位 4移動階層 5計算式 6導入圓角矩形公式
             width: 20px;
@@ -68,7 +68,7 @@
                 @include BPhoto(center, cover, banner, "02.jpg");
             }
             .Item05 {
-                @include BPhoto(center, cover, banner, "01.jpg");
+                @include BPhoto(center, cover, banner, "0.jpg");
             }
         }
     }

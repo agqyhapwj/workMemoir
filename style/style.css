@@ -110,7 +110,7 @@ img {
     font-size: 1.2rem;
     position: absolute;
     z-index: 15;
-    top: 77.5px;
+    top: 102.5px;
     border-radius: 15px;
   }
   #Main #Banner .LeftBtn {
@@ -124,7 +124,7 @@ img {
   #Main #Banner #ImgBox {
     width: 100vw;
     list-style-type: none;
-    padding-bottom: 250px;
+    padding-bottom: 300px;
     background-color: skyblue;
   }
   #Main #Banner #ImgBox li {
@@ -132,7 +132,7 @@ img {
     height: 18vw;
     float: left;
     position: absolute;
-    padding-bottom: 260px;
+    padding-bottom: 250px;
   }
   #Main #Banner #ImgBox .Item01 {
     width: 100vw;
@@ -167,7 +167,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url(../../images/banner/01.jpg);
+    background-image: url(../../images/banner/0.jpg);
   }
   #Main > #PhotoShare #TextLifeShare {
     display: -webkit-box;
