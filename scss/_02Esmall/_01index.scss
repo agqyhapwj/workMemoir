@@ -1,6 +1,6 @@
 // 超小裝置 Esmall <576px max-width (最小寬度) Iphone 5s/320px>
 header {
-    width: $W1p * 10;
+    width: $W1p * 9;
 
     > #MainNav {
         position: fixed;
@@ -9,7 +9,7 @@ header {
         z-index: 999;
         // background-color: rgb(238, 104, 104);
         background-image: url(../../images/Background/002.jpg);
-        @include LogoMenuBtn(8, 5vw);
+        @include LogoMenuBtn(6, 5vw);
 
         // 靠左對齊與(MenuBtn同一行
         #Logo {
