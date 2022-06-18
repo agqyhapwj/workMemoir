@@ -177,6 +177,7 @@ img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    font-size: 30px;
   }
   #Main > #PhotoShare > article > .ImgShare {
     width: 90vw;
