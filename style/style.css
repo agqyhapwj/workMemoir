@@ -407,7 +407,7 @@ img {
     width: 95%;
     top: 0;
     z-index: 999;
-    background-image: url(../../images/Background/pencil.jpg);
+    background-image: url(../../images/Background/003.jpg);
   }
   header #MainNav #Logo {
     width: 92vw;
@@ -444,7 +444,7 @@ img {
     display: none;
   }
   footer {
-    background-image: url(../../images/Background/pencil.jpg);
+    background-image: url(../../images/Background/003.jpg);
   }
   footer hr {
     margin-bottom: 0.7rem;
@@ -473,7 +473,7 @@ img {
     display: none;
   }
   #Main {
-    background-image: url(../../images/Background/pencil.jpg);
+    background-image: url(../../images/Background/003.jpg);
   }
   #Main #Banner {
     width: 95vw;

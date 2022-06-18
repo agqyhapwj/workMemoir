@@ -9,7 +9,7 @@ header{
         top: 0;
         z-index: 999;
         @include LogoMenuBtn(9,2vw);
-        background-image: url(../../images/Background/pencil.jpg);
+        background-image: url(../../images/Background/003.jpg);
 
         #Logo {
             font-size: 38px;
@@ -41,7 +41,7 @@ header{
 }
 
 footer {
-    background-image :url(../../images/Background/pencil.jpg);
+    background-image :url(../../images/Background/003.jpg);
     hr {margin-bottom: 0.7rem;}
 
     .SmallNav {
