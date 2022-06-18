@@ -605,7 +605,7 @@ img {
     width: 95%;
     top: 0;
     z-index: 999;
-    background-image: url(../../images/Background/002.jpg);
+    background-image: url(../../images/Background/003.jpg);
   }
   header #MainNav #Logo {
     width: 92vw;
@@ -643,7 +643,7 @@ img {
     width: 95vw;
   }
   footer {
-    background-image: url(../../images/Background/002.jpg);
+    background-image: url(../../images/Background/003.jpg);
   }
   footer .SmallNav {
     margin-bottom: 0.7rem;
@@ -672,7 +672,7 @@ img {
     list-style-type: none;
   }
   #Main {
-    background-image: url(../../images/Background/002.jpg);
+    background-image: url(../../images/Background/003.jpg);
   }
   #Main #Banner {
     width: 95vw;
