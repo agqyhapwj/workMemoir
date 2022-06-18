@@ -9,7 +9,7 @@ header {
         z-index: 999;
         // background-color: rgb(238, 104, 104);
         background-image: url(../../images/Background/002.jpg);
-        @include LogoMenuBtn(6, 5vw);
+        @include LogoMenuBtn(6, 7vw);
 
         // 靠左對齊與(MenuBtn同一行
         #Logo {
