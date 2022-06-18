@@ -207,7 +207,7 @@ img {
 
 @media screen and (min-width: 576px) {
   header {
-    width: 100%;
+    width: 90%;
   }
   header > #MainNav {
     position: fixed;
@@ -217,10 +217,10 @@ img {
     background-image: url(../../images/Background/002.jpg);
   }
   header > #MainNav #Logo {
-    width: 92vw;
+    width: 73vw;
   }
   header > #MainNav #MenuBtn {
-    width: 8vw;
+    width: 27vw;
   }
   header > #MainNav #Logo {
     font-size: 35px;
@@ -282,7 +282,7 @@ img {
     background-image: url(../../images/Background/002.jpg);
   }
   #Main #Banner {
-    width: 100vw;
+    width: 90vw;
     overflow: hidden;
     position: relative;
   }
@@ -347,6 +347,7 @@ img {
     background-image: url(../../images/banner/04.jpg);
   }
   #Main #Banner #ImgBox .Item05 {
+    margin-left: -27px;
     width: 100vw;
     background-repeat: no-repeat;
     background-position: center;

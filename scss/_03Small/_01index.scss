@@ -1,6 +1,6 @@
 // 小裝置 Small >=576px mia-width(最大寬度含等於) Microsoft Lumia550
 header {
-    width: $W1p * 10;
+    width: $W1p * 9;
     
     >#MainNav {
         position: fixed;
@@ -9,7 +9,7 @@ header {
         z-index: 999;
         // background-color: rgb(238, 104, 104);
         background-image: url(../../images/Background/002.jpg);
-        @include LogoMenuBtn(9, 2vw);
+        @include LogoMenuBtn(7, 3vw);
     
         // 靠左對齊與(MenuBtn同一行
         #Logo {

@@ -4,7 +4,7 @@
 
     #Banner {
         // 該裝置最大寬度、溢位設定(將超出範圍給隱藏)、定位:相對定位
-        width: $W10 * 10;
+        width: $W10 * 9;
         overflow: hidden;
         position: relative;
         // 父框架padding335px-子框架padding250px=相差值$Differ85px(可變化)
@@ -39,7 +39,9 @@
             .Item02 {@include BPhoto(center, cover, banner,"02.jpg");}
             .Item03 {@include BPhoto(center, cover, banner,"03.jpg");}
             .Item04 {@include BPhoto(center, cover, banner,"04.jpg");}
-            .Item05 {@include BPhoto(center, cover, banner,"0.jpg");}
+            .Item05 {
+                margin-left: -27px;
+                @include BPhoto(center, cover, banner,"0.jpg");}
         }
     }
     
