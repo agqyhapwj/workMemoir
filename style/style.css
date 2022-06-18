@@ -212,7 +212,7 @@ img {
     width: 100%;
     top: 0;
     z-index: 999;
-    background-image: url(../../images/Background/001.jpg);
+    background-image: url(../../images/Background/002.jpg);
   }
   header > #MainNav #Logo {
     width: 92vw;
@@ -248,7 +248,7 @@ img {
     display: none;
   }
   footer {
-    background-image: url(../../images/Background/001.jpg);
+    background-image: url(../../images/Background/002.jpg);
   }
   footer hr {
     margin-bottom: 0.5rem;
@@ -277,7 +277,7 @@ img {
     display: none;
   }
   #Main {
-    background-image: url(../../images/Background/001.jpg);
+    background-image: url(../../images/Background/002.jpg);
   }
   #Main #Banner {
     width: 100vw;
@@ -292,7 +292,7 @@ img {
     text-align: center;
     position: absolute;
     z-index: 15;
-    top: 152.5px;
+    top: 162.5px;
     border-radius: 15px;
   }
   #Main #Banner .LeftBtn {
@@ -306,7 +306,7 @@ img {
   #Main #Banner #ImgBox {
     width: 100vw;
     list-style-type: none;
-    padding-bottom: 400px;
+    padding-bottom: 420px;
     background-color: gray;
   }
   #Main #Banner #ImgBox li {
@@ -314,7 +314,7 @@ img {
     height: 40vw;
     float: left;
     position: absolute;
-    padding-bottom: 350px;
+    padding-bottom: 235px;
   }
   #Main #Banner #ImgBox .Item01 {
     width: 100vw;
@@ -349,7 +349,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url(../../images/banner/05.jpg);
+    background-image: url(../../images/banner/0.jpg);
   }
   #Main > #PhotoShare #TextLifeShare {
     display: -webkit-box;

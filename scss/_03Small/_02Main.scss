@@ -1,6 +1,6 @@
 // 小裝置 Small >=576px mia-width(最大寬度含等於) Microsoft Lumia550
 #Main {
-    background-image: url(../../images/Background/001.jpg);
+    background-image: url(../../images/Background/002.jpg);
 
     #Banner {
         // 該裝置最大寬度、溢位設定(將超出範圍給隱藏)、定位:相對定位
@@ -8,8 +8,8 @@
         overflow: hidden;
         position: relative;
         // 父框架padding335px-子框架padding250px=相差值$Differ85px(可變化)
-        $ImagePadding: 400px;
-        $Differ: 50px;
+        $ImagePadding: 420px;
+        $Differ: 185px;
         .Btn {
             width: 20px; 
             height: 95px; 
@@ -39,7 +39,7 @@
             .Item02 {@include BPhoto(center, cover, banner,"02.jpg");}
             .Item03 {@include BPhoto(center, cover, banner,"03.jpg");}
             .Item04 {@include BPhoto(center, cover, banner,"04.jpg");}
-            .Item05 {@include BPhoto(center, cover, banner,"05.jpg");}
+            .Item05 {@include BPhoto(center, cover, banner,"0.jpg");}
         }
     }
     
