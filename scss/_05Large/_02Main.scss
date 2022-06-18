@@ -69,5 +69,60 @@
                  @include BPhoto(center, cover, banner, "05.jpg");
             }
         }
+    }
+
+     #PhotoShare {
+        #TextLifeShare {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+            font-size: 1.5rem;
+            // 矩形的高度 寬度 顏色
+            height: 50px;
+            width: 180px;
+            background-color: rgba(255, 187, 236, 0.514);
         }
+
+        >article {
+            // 一行兩欄
+            display: inline-flex;
+            flex-wrap: wrap;
+            margin-top: 15px;
+            >.ImgShare {
+                width: $W10 * 3.1;
+                padding-right: 3px;
+                box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.5);
+                .Null {
+                    height: 12px;
+                }
+
+                >.Images {
+                    width: $W1p * 9.2;
+                
+                     margin: {
+                         bottom: 10px;
+                     }
+                
+                    border-radius: 15px;
+                
+                     >a {
+                        >img {
+                            // 圖片邊框:線段粗細 線段樣式(實線) 黑色
+                            border: 1.5px solid rgb(0, 0, 0);
+                             border-radius: 10px;
+                        }
+                    }
+                }
+
+                >.PhotoBrief {
+                    width: $W1p * 9;
+                    text-align: justify;
+                
+                    padding: {
+                        bottom: 8px;
+                    }
+                }
+            }
+        }
+    }
 }

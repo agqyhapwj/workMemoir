@@ -742,4 +742,48 @@ img {
     background-size: cover;
     background-image: url(../../images/banner/05.jpg);
   }
+  #Main #PhotoShare #TextLifeShare {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 15px;
+    font-size: 1.5rem;
+    height: 50px;
+    width: 180px;
+    background-color: rgba(255, 187, 236, 0.514);
+  }
+  #Main #PhotoShare > article {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  #Main #PhotoShare > article > .ImgShare {
+    width: 31vw;
+    padding-right: 3px;
+    -webkit-box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.5);
+            box-shadow: 2.5px 2.5px 8px rgba(0, 0, 0, 0.5);
+  }
+  #Main #PhotoShare > article > .ImgShare .Null {
+    height: 12px;
+  }
+  #Main #PhotoShare > article > .ImgShare > .Images {
+    width: 92%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+  }
+  #Main #PhotoShare > article > .ImgShare > .Images > a > img {
+    border: 1.5px solid black;
+    border-radius: 10px;
+  }
+  #Main #PhotoShare > article > .ImgShare > .PhotoBrief {
+    width: 90%;
+    text-align: justify;
+    padding-bottom: 8px;
+  }
 }
