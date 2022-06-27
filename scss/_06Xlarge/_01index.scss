@@ -1,1 +1,19 @@
 // 螢幕裝置 >=1200px Xlarge min-width(最大寬度 含等於) 電腦
+header {
+    width: $W10 * 9.5;
+    display: flex;
+}
+
+footer {
+    #Address {
+        h4{
+            display: none;
+        }
+        #Information {
+            width: $W1p * 10;
+            list-style-type: none;
+            margin: {top: -10px;}
+            display: flex;
+        }
+    }
+}

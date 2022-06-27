@@ -790,3 +790,23 @@ img {
     padding-bottom: 8px;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  header {
+    width: 95vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer #Address h4 {
+    display: none;
+  }
+  footer #Address #Information {
+    width: 100%;
+    list-style-type: none;
+    margin-top: -10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
