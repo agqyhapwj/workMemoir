@@ -804,7 +804,7 @@ img {
   footer #Address #Information {
     width: 100%;
     list-style-type: none;
-    margin-top: -10px;
+    margin-top: -5px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
