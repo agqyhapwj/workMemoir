@@ -1,1 +1,8 @@
 // 超大螢幕裝置 >= 1400px XXlarge min-winth(最大寬度 含等於)
+header {
+    width: $W10 * 10;
+}
+
+footer {
+    width: $W10 * 10;
+}

@@ -4,12 +4,12 @@
 
     #Banner {
         // 該裝置最大寬度、溢位設定(將超出範圍給隱藏)、定位:相對定位
-        width: $W10 * 8.5;
+        width: $W10 * 9;
         overflow: hidden;
         position: relative;
-        // 父框架padding335px-子框架padding250px=相差值$Differ85px(可變化)
-        $ImagePadding: 600px;
-        $Differ: 150px;
+        // 父框架padding335px- 子框架padding250px = 相差值$Differ 85px(可變化)
+        $ImagePadding: 420px;
+        $Differ: 102px;
         // 陰影： x軸 y軸 模糊 顏色
         box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 
@@ -38,36 +38,37 @@
 
         #ImgBox {
             width: $W10 * 10;
+            height: $W10 * 1.8;
             @include DNli;
             padding-bottom: $ImagePadding;
             background-color: gray;
 
             li {
                 width: $W10 * 10;
-                height: $W10 * 4;
+                height: $W10 * 3;
                 float: left;
                 position: absolute;
                 padding-bottom: $ImagePadding - $Differ;
             }
 
             .Item01 {
-                @include BPhoto(center, cover, banner, "01.jpg");
+                @include BPhoto(center, cover, banner_Large_Large, "清晨.jpg");
             }
 
             .Item02 {
-                @include BPhoto(center, cover, banner, "02.jpg");
+                @include BPhoto(center, cover, banner_Large, "夕陽.jpg");
             }
 
             .Item03 {
-                @include BPhoto(center, cover, banner, "03.jpg");
+                @include BPhoto(center, cover, banner_Large, "模型.jpg");
             }
 
             .Item04 {
-                @include BPhoto(center, cover, banner, "04.jpg");
+                @include BPhoto(center, cover, banner_Large, "義大利麵.jpg");
             }
 
             .Item05 {
-                @include BPhoto(center, cover, banner, "05.jpg");
+                @include BPhoto(center, cover, banner_Large, "突顯主體.jpg");
             }
         }
     }
