@@ -52,7 +52,7 @@
             }
 
             .Item01 {
-                @include BPhoto(center, cover, banner_Large_Large, "清晨.jpg");
+                @include BPhoto(center, cover, banner_Large, "清晨.jpg");
             }
 
             .Item02 {
