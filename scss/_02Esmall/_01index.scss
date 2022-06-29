@@ -24,6 +24,7 @@ header {
             text-indent: -9999px;
             @include PhoneMenu(center, contain, icon, "menu.svg");
             opacity: 0.85;
+            margin: {top: 10px;}
         }
 
         // icon在手機版是隱藏的

@@ -50,6 +50,7 @@ img {
     background-size: contain;
     background-image: url(../../images/icon/menu.svg);
     opacity: 0.85;
+    margin-top: 10px;
   }
   header > #MainNav #icon {
     display: none;
