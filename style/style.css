@@ -36,10 +36,11 @@ img {
   header > #MainNav #MenuBtn {
     width: 33vw;
   }
-  header > #MainNav #Logo {
+  header > #MainNav #Logo img {
     font-size: 35px;
     float: left;
     opacity: 0.85;
+    margin-left: -53px;
   }
   header > #MainNav #MenuBtn {
     float: left;
@@ -218,25 +219,29 @@ img {
     background-image: url(../../images/Background/002.jpg);
   }
   header > #MainNav #Logo {
-    width: 73vw;
+    width: 50vw;
   }
   header > #MainNav #MenuBtn {
-    width: 27vw;
+    width: 50vw;
   }
   header > #MainNav #Logo {
     font-size: 35px;
     float: left;
     opacity: 0.85;
+    background-color: gold;
   }
   header > #MainNav #MenuBtn {
     float: left;
-    height: 45px;
+    height: 50px;
     text-indent: -9999px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     background-image: url(../../images/icon/menu.svg);
     opacity: 0.85;
+    background-color: pink;
+    margin-top: 20px;
+    margin-left: 3px;
   }
   header > #MainNav #icon {
     display: none;

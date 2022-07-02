@@ -13,9 +13,13 @@ header {
 
         // 靠左對齊與(MenuBtn同一行
         #Logo {
-            font-size: 35px;
-            float: left;
-            opacity: 0.85;
+            img {
+                font-size: 35px;
+                float: left;
+                opacity: 0.85;
+                // background-color: gold;
+                margin-left: -53px;
+            }
         }
         // 靠左對齊與(Logo同一行)
         #MenuBtn {
@@ -24,6 +28,7 @@ header {
             text-indent: -9999px;
             @include PhoneMenu(center, contain, icon, "menu.svg");
             opacity: 0.85;
+            // background-color: pink;
             margin: {top: 15px;}
         }
 
