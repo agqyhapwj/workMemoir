@@ -28,7 +28,7 @@ header {
             @include PhoneMenu(center, contain, icon, "menu.svg");
             opacity: 0.85;
             // background-color: pink;
-            margin: {top: 15px; left: -3px;}
+            margin: {top: 10px; left: -3px;}
         }
 
         // icon在手機版是隱藏的
