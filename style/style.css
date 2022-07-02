@@ -218,29 +218,26 @@ img {
     background-image: url(../../images/Background/002.jpg);
   }
   header > #MainNav #Logo {
-    width: 50vw;
+    width: 70vw;
   }
   header > #MainNav #MenuBtn {
-    width: 50vw;
+    width: 30vw;
   }
-  header > #MainNav #Logo {
-    font-size: 35px;
+  header > #MainNav #Logo img {
+    position: relative;
     float: left;
-    opacity: 0.85;
-    background-color: gold;
+    margin-left: -100px;
   }
   header > #MainNav #MenuBtn {
     float: left;
-    height: 50px;
+    height: 80px;
     text-indent: -9999px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     background-image: url(../../images/icon/menu.svg);
-    opacity: 0.85;
-    background-color: pink;
     margin-top: 20px;
-    margin-left: 3px;
+    margin-left: 5px;
   }
   header > #MainNav #icon {
     display: none;
