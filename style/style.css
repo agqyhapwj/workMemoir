@@ -111,16 +111,16 @@ img {
     font-size: 1.2rem;
     position: absolute;
     z-index: 15;
-    top: 102.5px;
+    top: 119.16667px;
     border-radius: 15px;
   }
   #Main #Banner .LeftBtn {
     left: 2.5vw;
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(13, 13, 13, 0.25);
   }
   #Main #Banner .RightBtn {
     right: 2.5vw;
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(13, 13, 13, 0.25);
   }
   #Main #Banner #ImgBox {
     width: 100vw;
