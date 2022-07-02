@@ -31,26 +31,25 @@ img {
     background-image: url(../../images/Background/002.jpg);
   }
   header > #MainNav #Logo {
-    width: 67vw;
+    width: 70vw;
   }
   header > #MainNav #MenuBtn {
-    width: 33vw;
+    width: 30vw;
   }
   header > #MainNav #Logo img {
     position: relative;
     float: left;
-    margin-left: -53px;
+    margin-left: -60px;
   }
   header > #MainNav #MenuBtn {
     float: left;
-    height: 50px;
+    height: 55px;
     text-indent: -9999px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     background-image: url(../../images/icon/menu.svg);
-    opacity: 0.85;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: -3px;
   }
   header > #MainNav #icon {
