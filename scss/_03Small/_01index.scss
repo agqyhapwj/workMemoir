@@ -17,18 +17,19 @@ header {
                 position: relative;
                 float: left;
                 // background-color: gold;
-                margin-left: -100px;
+                margin-left: -90px;
+                width: $W10 * 4.5;
             }
         }
     
         // 靠左對齊與(Logo同一行)
         #MenuBtn {
             float: left;
-            height: 80px;
+            height: 60px;
             text-indent: -9999px;
             @include PhoneMenu(center, contain, icon, "menu.svg");
             // background-color: pink;
-            margin: {top: 20px; left: 5px;}
+            margin: {top: 10px; left: 145px;}
         }
     
         // icon在手機版是隱藏的

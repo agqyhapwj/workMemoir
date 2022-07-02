@@ -12,11 +12,12 @@ header {
         background-image: url(../../images/Background/003.jpg);
 
         #Logo {
-            font-size: 35px;
-            float: left;
-            margin-top: auto;
-            margin-left: 13px;
-            width: $W10 * 7;
+            img {
+                float: left;
+                margin-top: auto;
+                margin-left: 13px;
+                width: $W10 * 4;
+            }
         }
 
         #MenuBtn {

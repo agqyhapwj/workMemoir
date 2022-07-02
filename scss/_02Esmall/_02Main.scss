@@ -24,7 +24,7 @@
             font-size: $Trem * 1.2;
             position: absolute;
             z-index: 15;
-            top: ($ImagePadding / 1.8) - (95px / 2);
+            top: ($ImagePadding / 1.9) - (95px / 2);
             @include Rounded(15);
         }
         // 方向 左邊為0(物件靠左對)；float浮點對齊，配合 上下左右 方向推動

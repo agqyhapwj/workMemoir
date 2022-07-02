@@ -9,23 +9,23 @@ header{
         top: 0;
         z-index: 999;
         background-image: url(../../images/Background/003.jpg);
-        @include LogoMenuBtn(7, 5vw);
+        @include LogoMenuBtn(7, 0vw);
 
         #Logo {
             img {
                 position: relative;
                 float: left;
                 // background-color: gold;
-                margin-left: -80px;
+                margin-left: -100px;
+                width: $W10 * 4;
             }
         }
         #MenuBtn {
             float: right;
-            height: 90px;
-            margin-top: -50px;
+            height: 60px;
             @include PhoneMenu(center, contain, icon, "menu.svg");
             // background-color: pink;
-            margin: {top:-130px; right: -25px;}
+            margin: {top:15px; right: -85px}
         }
 
         #icon {
