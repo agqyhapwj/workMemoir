@@ -12,11 +12,12 @@ header {
             background-image: url(../../images/Background/003.jpg);
     
             #Logo {
-                font-size: 30px;
-                float: left;
-                margin-top: auto;
-                margin-left: 45px;
-                width: $W10 * 7;
+                img {
+                    float: left;
+                    margin-top: auto;
+                    margin-left: 0px;
+                    width: $W10 * 2.5;
+                }
             }
     
             #MenuBtn {
@@ -28,8 +29,8 @@ header {
                 list-style-type: none;
                 display: flex;
                 font-size: 25px;
-                width: $W10 * 1.2;
-                padding-left: 30px;
+                width: $W10 * 2;
+                margin: {top: 30px; right: 15px;}
             }
     
             .BtnBox {

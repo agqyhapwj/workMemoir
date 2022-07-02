@@ -8,8 +8,8 @@
         overflow: hidden;
         position: relative;
         // 父框架padding335px- 子框架padding250px = 相差值$Differ 85px(可變化)
-        $ImagePadding: 420px;
-        $Differ: 102px;
+        $ImagePadding: 500px;
+        $Differ: 100px;
         // 陰影： x軸 y軸 模糊 顏色
         box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 
@@ -21,7 +21,7 @@
             text-align: center;
             position: absolute;
             z-index: 15;
-            top: ($ImagePadding / 2)-(20px / 2);
+            top: ($ImagePadding / 1.4)-(20px / 2);
             // border-radius: $Num + px; 邊框角度設定
             @include Rounded(15);
         }
