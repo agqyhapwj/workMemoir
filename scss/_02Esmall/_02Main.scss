@@ -45,7 +45,7 @@
             background-color: skyblue;
             li {
                 width: $W10 * 10;
-                height: $W10 * 1.8;
+                height: $W10 * 2.5;
                 float: left;
                 // 絕對定位absolute:單獨呼叫時，原點(0，0)會位於畫面(可視範圍)的左上角
                 // 相對定位relative:單獨呼叫時，功能設為重新定位原點至父框架

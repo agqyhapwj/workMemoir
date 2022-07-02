@@ -130,7 +130,7 @@ img {
   }
   #Main #Banner #ImgBox li {
     width: 100vw;
-    height: 18vw;
+    height: 25vw;
     float: left;
     position: absolute;
     padding-bottom: 250px;
@@ -348,7 +348,6 @@ img {
     background-image: url(../../images/banner/04.jpg);
   }
   #Main #Banner #ImgBox .Item05 {
-    margin-left: -27px;
     width: 100vw;
     background-repeat: no-repeat;
     background-position: center;
