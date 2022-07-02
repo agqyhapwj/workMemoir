@@ -19,7 +19,7 @@
                 text-align: center;
                 position: absolute;
                 z-index: 15;
-                top: ($ImagePadding / 2)-(-20px / 2);
+                top: ($ImagePadding / 1.75)-(95px / 2);
                 // border-radius: $Num + px; 邊框角度設定
                 @include Rounded(15);
             }
@@ -32,7 +32,7 @@
             background-color: gray;
             li {
                 width: $W10 * 10;
-                height: $W10 * 4;
+                height: $W10 * 5.45;
                 float: left;
                 position: absolute;
                 padding-bottom: $ImagePadding - $Differ;
@@ -41,9 +41,7 @@
             .Item02 {@include BPhoto(center, cover, banner,"02.jpg");}
             .Item03 {@include BPhoto(center, cover, banner,"03.jpg");}
             .Item04 {@include BPhoto(center, cover, banner,"04.jpg");}
-            .Item05 {
-                margin-left: -17px;
-                @include BPhoto(center, cover, banner,"0.jpg");}
+            .Item05 {@include BPhoto(center, cover, banner,"0.jpg");}
         }
     }
 
