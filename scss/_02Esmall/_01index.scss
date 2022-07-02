@@ -14,9 +14,8 @@ header {
         // 靠左對齊與(MenuBtn同一行
         #Logo {
             img {
-                font-size: 35px;
+                position: relative;
                 float: left;
-                opacity: 0.85;
                 // background-color: gold;
                 margin-left: -53px;
             }
@@ -29,7 +28,7 @@ header {
             @include PhoneMenu(center, contain, icon, "menu.svg");
             opacity: 0.85;
             // background-color: pink;
-            margin: {top: 15px;}
+            margin: {top: 15px; left: -3px;}
         }
 
         // icon在手機版是隱藏的
