@@ -8,7 +8,7 @@ header {
         width: $W1p * 9.09;
         z-index: 999;
         @include LogoMenuBtn(9,2);
-        background-image: url(../../images/Background/pencil.jpg);
+        background-image: url(../../images/Background/漸層背景.jpg);
         margin-left: 95px;
 
         #Logo {
@@ -16,6 +16,7 @@ header {
                 float: left;
                 margin: {top: 5px; left: 40px;}
                 width: $W10 * 2;
+                background-color: gold;
             }
         }
 

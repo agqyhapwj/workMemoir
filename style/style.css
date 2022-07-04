@@ -985,7 +985,7 @@ img {
     position: fiexd;
     width: 90.9%;
     z-index: 999;
-    background-image: url(../../images/Background/pencil.jpg);
+    background-image: url(../../images/Background/漸層背景.jpg);
     margin-left: 95px;
   }
   header #MainNav #Logo {
@@ -999,6 +999,7 @@ img {
     margin-top: 5px;
     margin-left: 40px;
     width: 20vw;
+    background-color: gold;
   }
   header #MainNav #MenuBtn {
     display: none;
