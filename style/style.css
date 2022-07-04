@@ -999,7 +999,8 @@ img {
     margin-top: 5px;
     margin-left: 40px;
     width: 20vw;
-    background-color: gold;
+    background-color: white;
+    opacity: 0.8;
   }
   header #MainNav #MenuBtn {
     display: none;
