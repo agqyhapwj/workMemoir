@@ -4,45 +4,44 @@ header {
     display: flex;
 
     #MainNav {
-            position: fixed;
-            width: $W1p * 9.5;
-            top: 0;
-            z-index: 999;
-            @include LogoMenuBtn(9, 2vw);
-            background-image: url(../../images/Background/003.jpg);
-    
-            #Logo {
-                img {
-                    float: left;
-                    margin-top: auto;
-                    margin-left: 0px;
-                    width: $W10 * 2.5;
-                }
-            }
-    
-            #MenuBtn {
-                display: none;
-            }
-    
-            #icon {
-                display: block;
-                list-style-type: none;
-                display: flex;
-                font-size: 25px;
-                width: $W10 * 2;
-                margin: {top: 30px; right: 15px;}
-            }
-    
-            .BtnBox {
-                display: block;
-                display: flex;
-                list-style-type: none;
-                font-size: 25px;
-                width: $W10 * 9.5;
-                margin-bottom: 10px;
-    
+        position: fixed;
+        width: $W1p * 9.5;
+        top: 0;
+        z-index: 999;
+        @include LogoMenuBtn(9, 2vw);
+        background-image: url(../../images/Background/003.jpg);
+
+        #Logo {
+            img {
+                float: left;
+                margin-top: auto;
+                margin-left: 0px;
+                width: $W10 * 2.5;
             }
         }
+    
+            #MenuBtn {
+            display: none;
+        }
+    
+        #icon {
+            display: block;
+            list-style-type: none;
+            display: flex;
+            font-size: 25px;
+            width: $W10 * 2;
+                argin: {top: 30px; right: 15px;}
+        }
+    
+        .BtnBox {
+            display: block;
+            display: flex;
+            list-style-type: none;
+            font-size: 25px;
+            width: $W10 * 9.5;
+            margin-bottom: 10px;
+        }
+    }
 }
 
 footer {

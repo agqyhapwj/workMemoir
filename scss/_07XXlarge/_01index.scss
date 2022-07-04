@@ -1,6 +1,47 @@
 // 超大螢幕裝置 >= 1400px XXlarge min-winth(最大寬度 含等於)
 header {
     width: $W10 * 10;
+    display: flex;
+
+    #MainNav {
+        position: fiexd;
+        width: $W1p * 9.09;
+        z-index: 999;
+        @include LogoMenuBtn(9,2);
+        background-image: url(../../images/Background/pencil.jpg);
+        margin-left: 95px;
+
+        #Logo {
+            img {
+                float: left;
+                margin: {top: 5px; left: 40px;}
+                width: $W10 * 2;
+            }
+        }
+
+        #MenuBtn {
+            display: none;
+        }
+
+        #icon {
+            display: block;
+            list-style-type: none;
+            display: flex;
+            font-size: 25px;
+            width: $W10 * 2;
+            margin: {top: 50px; right: 15px;}
+        }
+
+        .BtnBox {
+            display: block;
+            display: flex;
+            list-style-type: none;
+            font-size: 25px;
+            width: $W10 * 9;
+            margin-bottom: 10px;
+        }
+        
+    }
 }
 
 footer {
