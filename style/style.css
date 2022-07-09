@@ -1028,6 +1028,7 @@ img {
   }
   footer {
     width: 100vw;
+    background-image: url(../../images/Background/漸層背景.jpg);
   }
   #Main {
     width: 100vw;
