@@ -5,16 +5,16 @@ header {
 
     #MainNav {
         position: fiexd;
-        width: $W1p * 9.09;
+        width: $W1p * 9.11;
         z-index: 999;
         @include LogoMenuBtn(9,2);
         background-image: url(../../images/Background/漸層背景.jpg);
-        margin-left: 95px;
+        margin-left: 75px;
 
         #Logo {
             img {
                 float: left;
-                margin: {top: 5px; left: 40px;}
+                margin: {top: 10px; left: 40px;}
                 width: $W10 * 2;
                 background-color: white;
                 opacity: 0.8;
@@ -31,7 +31,7 @@ header {
             display: flex;
             font-size: 25px;
             width: $W10 * 2;
-            margin: {top: 50px; right: 15px;}
+            margin: {top: 50px; right: 12px;}
         }
 
         .BtnBox {
@@ -40,7 +40,7 @@ header {
             list-style-type: none;
             font-size: 25px;
             width: $W10 * 9;
-            margin-bottom: 10px;
+            margin-bottom: 2.5px;
         }
         
     }
