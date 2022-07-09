@@ -983,20 +983,20 @@ img {
   }
   header #MainNav {
     position: fiexd;
-    width: 91.1%;
+    width: 90.9%;
     z-index: 999;
     background-image: url(../../images/Background/漸層背景.jpg);
-    margin-left: 75px;
+    margin-left: 95px;
   }
   header #MainNav #Logo {
-    width: 90vw;
+    width: 92vw;
   }
   header #MainNav #MenuBtn {
-    width: 10vw;
+    width: 8vw;
   }
   header #MainNav #Logo img {
     float: left;
-    margin-top: 15px;
+    margin-top: 5px;
     margin-left: 40px;
     width: 20vw;
     background-color: white;
@@ -1014,7 +1014,7 @@ img {
     font-size: 25px;
     width: 20vw;
     margin-top: 50px;
-    margin-right: 10px;
+    margin-right: 15px;
   }
   header #MainNav .BtnBox {
     display: block;
@@ -1024,7 +1024,7 @@ img {
     list-style-type: none;
     font-size: 25px;
     width: 90vw;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
   }
   footer {
     width: 100vw;
