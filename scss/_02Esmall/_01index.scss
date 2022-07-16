@@ -48,11 +48,11 @@ header {
         // 解開隱藏的部分：寬度與高度(裝置的可視高度)
         // 定位點 絕對定位
         // @include DN;
-        width: $W1p * 10;
+        width: $W1p * 9;
         height: $W1p * 10;
         position:absolute;
         position: fixed;
-        top: 0;
+        top: 68px;
         overflow: hidden;
         background-color: rgb(84, 135, 230);
 

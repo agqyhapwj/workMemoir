@@ -62,11 +62,11 @@ img {
     clear: both;
   }
   header > #MenuNavOpen {
-    width: 100%;
+    width: 90%;
     height: 100%;
     position: absolute;
     position: fixed;
-    top: 0;
+    top: 68px;
     overflow: hidden;
     background-color: #5487e6;
   }
