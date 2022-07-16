@@ -84,7 +84,7 @@ img {
     position: relative;
     float: left;
     background-color: gold;
-    margin-left: -60px;
+    margin-left: 0px;
     width: 80vw;
   }
   header > #MenuNavOpen > ul {
