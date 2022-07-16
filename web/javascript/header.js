@@ -12,11 +12,11 @@ function MenuNavOpenShow() {
 
     // 開啟選單
     $('MenuBtn').click( function() {
-        $('MenuNavOpen').show();
+        $('#MenuNavOpen').show();
     })
 
     // 關閉選單
     $('#Close').click( function() {
-        $('MenuNavOpen').hide();
+        $('#MenuNavOpen').hide();
     })
 }
