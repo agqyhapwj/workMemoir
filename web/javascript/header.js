@@ -11,7 +11,7 @@ function MenuNavOpenShow() {
     $('#MenuNavOpen').hide();
 
     // 開啟選單
-    $('MenuBtn').click( function() {
+    $('#MenuBtn').click( function() {
         $('#MenuNavOpen').show();
     })
 
