@@ -62,9 +62,6 @@ img {
   header > #MainNav .Clear {
     clear: both;
   }
-  header > #MenuNavOpen {
-    display: none;
-  }
   footer {
     background-image: url(../../images/Background/002.jpg);
   }
