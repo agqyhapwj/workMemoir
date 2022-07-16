@@ -62,6 +62,52 @@ img {
   header > #MainNav .Clear {
     clear: both;
   }
+  header > #MenuNavOpen {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    background-color: #5487e6;
+  }
+  header > #MenuNavOpen #Close {
+    width: 40px;
+    height: 40px;
+    list-style-type: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rosybrown;
+  }
+  header > #MenuNavOpen > h3 img {
+    position: relative;
+    float: left;
+    margin-left: -60px;
+    width: 80vw;
+  }
+  header > #MenuNavOpen > ul {
+    list-style-type: none;
+    width: 90%;
+    position: relative;
+    top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background: salmon;
+  }
+  header > #MenuNavOpen > ul margin {
+    top: -260;
+  }
+  header > #MenuNavOpen > ul > .items {
+    width: 30%;
+    height: 70px;
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: skyblue;
+  }
   footer {
     background-image: url(../../images/Background/002.jpg);
   }

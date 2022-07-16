@@ -45,8 +45,57 @@ header {
     }
 
     > #MenuNavOpen {
+        // 解開隱藏的部分：寬度與高度(裝置的可視高度)
+        // 定位點 絕對定位
         // @include DN;
-        
+        width: $W1p * 10;
+        height: $W1p * 10;
+        position:absolute;
+        position: fixed;
+        top: 0;
+        overflow: hidden;
+        background-color: rgb(84, 135, 230);
+
+        #Close {
+            width: 40px;
+            height: 40px;
+            list-style-type: none;
+            position: absolute;
+            top:10px;
+            right: 10px;
+            background-color: rosybrown;
+        }
+        > h3 {
+            img {
+                position: relative;
+                float: left;
+                // background-color: gold;
+                margin-left: -60px;
+                width: $W10 * 8;
+            }
+        }
+        > ul {
+            list-style-type: none;
+            width: $W1p * 9;
+            position: relative;
+            top: 50px;
+            margin {
+                top: -260;
+            }
+            display: flex;
+            flex-wrap: wrap;
+            background: salmon;
+            > .items {
+                width: $W1p * 9 /3;
+                height: 70px;
+                margin: {
+                    bottom: 100px;
+                }
+                text-align: center;
+                background-color: skyblue;
+            }
+        }
+
     }
 }
 
