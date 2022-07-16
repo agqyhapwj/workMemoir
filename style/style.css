@@ -83,6 +83,7 @@ img {
   header > #MenuNavOpen > h3 img {
     position: relative;
     float: left;
+    background-color: gold;
     margin-left: -60px;
     width: 80vw;
   }
