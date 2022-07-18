@@ -1,8 +1,8 @@
 // MenuNavOpenShow();
-function MenuNavOpenShow() {
-    let Menu = document.getElementById('MenuNavOpen');
-    Menu.style.display = 'none';
-}
+// function MenuNavOpenShow() {
+//     let Menu = document.getElementById('MenuNavOpen');
+//     Menu.style.display = 'none';
+// }
 
 MenuNavOpenShow();
 function MenuNavOpenShow() {
