@@ -85,14 +85,16 @@ header {
             display: flex;
             flex-wrap: wrap;
             background: salmon;
-            > .items {
+            > .Items {
                 width: $W1p * 9 /3;
                 height: 70px;
                 margin-bottom: 100px;
                 margin-top: 40px;
                 text-align: center;
+                display: flex;
                 background-color: skyblue;
             }
+            
         }
 
     }
