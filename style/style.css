@@ -88,9 +88,10 @@ img {
     margin-top: -30px;
     width: 60vw;
   }
-  header > #MenuNavOpen > ul {
+  header > #MenuNavOpen .LifeBox {
     list-style-type: none;
     width: 90%;
+    height: 100%;
     position: relative;
     top: 10px;
     display: -webkit-box;
@@ -100,7 +101,7 @@ img {
         flex-wrap: wrap;
     background: salmon;
   }
-  header > #MenuNavOpen > ul > .Items {
+  header > #MenuNavOpen .LifeBox > li {
     width: 30%;
     height: 70px;
     margin-bottom: 100px;
@@ -110,6 +111,48 @@ img {
     display: -ms-flexbox;
     display: flex;
     background-color: skyblue;
+  }
+  header > #MenuNavOpen .LifeBox .LifeItems {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/working/01.jpg);
+  }
+  header > #MenuNavOpen .LifeBox .WeiItems {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/working/02.jpeg);
+  }
+  header > #MenuNavOpen .LifeBox .HaoItems {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/working/03.jpeg);
+  }
+  header > #MenuNavOpen .LifeBox .LunItems {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/working/04.jpeg);
+  }
+  header > #MenuNavOpen .LifeBox .HuaItems {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/working/05.jpeg);
+  }
+  header > #MenuNavOpen .LifeBox .HanItems {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/working/06.jpeg);
   }
   footer {
     background-image: url(../../images/Background/002.jpg);
