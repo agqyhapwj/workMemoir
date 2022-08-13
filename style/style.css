@@ -67,16 +67,16 @@ img {
     height: auto;
     position: absolute;
     position: fixed;
-    top: 68px;
+    top: 10px;
     overflow: hidden;
     background-color: #5487e6;
   }
   header > #MenuNavOpen #Close {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     list-style-type: none;
     position: relative;
-    top: 80px;
+    top: 10px;
     left: 150px;
     font-size: 30px;
     text-align: center;
@@ -84,15 +84,15 @@ img {
   header > #MenuNavOpen > h3 img {
     position: relative;
     float: left;
-    background-color: gold;
-    margin-left: 0px;
+    margin-left: 5px;
+    margin-top: -30px;
     width: 60vw;
   }
   header > #MenuNavOpen > ul {
     list-style-type: none;
     width: 90%;
     position: relative;
-    top: 50px;
+    top: 10px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -100,13 +100,11 @@ img {
         flex-wrap: wrap;
     background: salmon;
   }
-  header > #MenuNavOpen > ul margin {
-    top: -260;
-  }
   header > #MenuNavOpen > ul > .items {
     width: 30%;
     height: 70px;
     margin-bottom: 100px;
+    margin-top: 40px;
     text-align: center;
     background-color: skyblue;
   }

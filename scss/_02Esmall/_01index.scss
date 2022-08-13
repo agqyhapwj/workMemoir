@@ -52,18 +52,17 @@ header {
         height: auto;
         position:absolute;
         position: fixed;
-        top: 68px;
+        top: 10px;
         overflow: hidden;
         background-color: rgb(84, 135, 230);
 
         #Close {
-            width: 50px;
-            height: 50px;
+            width: 40px;
+            height: 40px;
             list-style-type: none;
             position: relative;
-            top:80px;
+            top:10px;
             left: 150px;
-            // background-color: rosybrown;
             font-size: 30px;
             text-align: center;
         }
@@ -71,8 +70,9 @@ header {
             img {
                 position: relative;
                 float: left;
-                background-color: gold;
-                margin-left: 0px;
+                // background-color: gold;
+                margin-left: 5px;
+                margin-top: -30px;
                 width: $W10 * 6;
             }
         }
@@ -80,19 +80,16 @@ header {
             list-style-type: none;
             width: $W1p * 9;
             position: relative;
-            top: 50px;
-            margin {
-                top: -260;
-            }
+            top: 10px;
+            // margin-top: -20px;
             display: flex;
             flex-wrap: wrap;
             background: salmon;
             > .items {
                 width: $W1p * 9 /3;
                 height: 70px;
-                margin: {
-                    bottom: 100px;
-                }
+                margin-bottom: 100px;
+                margin-top: 40px;
                 text-align: center;
                 background-color: skyblue;
             }
