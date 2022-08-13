@@ -85,11 +85,11 @@ header {
             flex-wrap: wrap;
             background: salmon;
             > li {
-                // width: $W10 * 2;
-                height: $W10 * 4;
-                padding-bottom: 60px;
+                width: $W10 * 2.5;
+                height: $W10 * 3;
+                padding-bottom: 30px;
             }
-            
+
         }
 
     }
