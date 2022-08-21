@@ -88,23 +88,6 @@ img {
     margin-top: -30px;
     width: 60vw;
   }
-  header > #MenuNavOpen .LifeBox {
-    list-style-type: none;
-    width: 90%;
-    position: relative;
-    top: 15px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    background: salmon;
-  }
-  header > #MenuNavOpen .LifeBox > li {
-    width: 25vw;
-    height: 30vw;
-    padding-bottom: 30px;
-  }
   footer {
     background-image: url(../../images/Background/002.jpg);
   }

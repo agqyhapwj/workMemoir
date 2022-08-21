@@ -76,21 +76,7 @@ header {
                 width: $W10 * 6;
             }
         }
-        .LifeBox {
-            list-style-type: none;
-            width: $W1p * 9;
-            position: relative;
-            top: 15px;
-            display: flex;
-            flex-wrap: wrap;
-            background: salmon;
-            > li {
-                width: $W10 * 2.5;
-                height: $W10 * 3;
-                padding-bottom: 30px;
-            }
-
-        }
+        
 
     }
 }
