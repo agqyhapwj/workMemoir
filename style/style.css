@@ -66,9 +66,12 @@ img {
     width: 90%;
     height: auto;
     position: absolute;
-    position: fixed;
     top: 10px;
+    overflow: hidden;
     background-color: #5487e6;
+  }
+  header > #MenuNavOpen #navigation {
+    position: fixed;
   }
   header > #MenuNavOpen #navigation #Close {
     width: 40px;
@@ -76,7 +79,7 @@ img {
     list-style-type: none;
     position: relative;
     top: 10px;
-    left: 150px;
+    left: 200px;
     font-size: 30px;
     text-align: center;
   }
@@ -87,10 +90,18 @@ img {
     margin-top: -30px;
     width: 60vw;
   }
-  header > #MenuNavOpen > article #SubjectTxet {
+  header > #MenuNavOpen #LifeShare #SubjectTxet {
     text-align: center;
-    margin-top: 50px;
+    position: relative;
+    margin-top: 90px;
     padding-bottom: 15px;
+  }
+  header > #MenuNavOpen #LifeShare > article > .IdImg {
+    width: 30vw;
+    padding-bottom: 15px;
+  }
+  header > #MenuNavOpen #LifeShare > article > .IdImg > .Null {
+    height: 10px;
   }
   footer {
     background-image: url(../../images/Background/002.jpg);
