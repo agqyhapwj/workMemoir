@@ -53,31 +53,40 @@ header {
         position:absolute;
         position: fixed;
         top: 10px;
-        overflow: hidden;
+        // overflow: hidden;
         background-color: rgb(84, 135, 230);
 
+       #navigation {
         #Close {
-            width: 40px;
-            height: 40px;
-            list-style-type: none;
-            position: relative;
-            top:10px;
-            left: 150px;
-            font-size: 30px;
-            text-align: center;
-        }
-        > h3 {
-            img {
+                width: 40px;
+                height: 40px;
+                list-style-type: none;
                 position: relative;
-                float: left;
-                // background-color: gold;
-                margin-left: 5px;
-                margin-top: -30px;
-                width: $W10 * 6;
+                top: 10px;
+                left: 150px;
+                font-size: 30px;
+                text-align: center;
             }
-        }
         
-
+            >h3 {
+                img {
+                    position: relative;
+                    float: left;
+                    // background-color: gold;
+                    margin-left: 5px;
+                    margin-top: -30px;
+                    width: $W10 * 6;
+                }
+            }
+       }
+       > article {
+            #SubjectTxet {
+                text-align: center;
+                margin: {top:50px;}
+                padding: {bottom:15px;}
+                
+            }
+       }
     }
 }
 

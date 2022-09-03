@@ -68,10 +68,9 @@ img {
     position: absolute;
     position: fixed;
     top: 10px;
-    overflow: hidden;
     background-color: #5487e6;
   }
-  header > #MenuNavOpen #Close {
+  header > #MenuNavOpen #navigation #Close {
     width: 40px;
     height: 40px;
     list-style-type: none;
@@ -81,12 +80,17 @@ img {
     font-size: 30px;
     text-align: center;
   }
-  header > #MenuNavOpen > h3 img {
+  header > #MenuNavOpen #navigation > h3 img {
     position: relative;
     float: left;
     margin-left: 5px;
     margin-top: -30px;
     width: 60vw;
+  }
+  header > #MenuNavOpen > article #SubjectTxet {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 15px;
   }
   footer {
     background-image: url(../../images/Background/002.jpg);
