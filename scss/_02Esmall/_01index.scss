@@ -72,7 +72,7 @@ header {
                 img {
                     position: relative;
                     float: left;
-                    // background-color: gold;
+                    background-color: rgb(155,178,221);
                     margin-left: 5px;
                     margin-top: -30px;
                     width: $W10 * 6;
@@ -83,14 +83,18 @@ header {
         #LifeShare {
             #SubjectTxet {
                 text-align: center;
-                // position:relative;
+                position:relative;
                 margin-top: 90px;
                 padding-bottom: 15px;
             }
         
             >article {
+                // 一行兩欄
+                display: inline-flex;
+                flex-wrap: wrap;
+                // margin-top: 0px;
                 >.IdImg {
-                    width: $W10 * 3;
+                    width: $W10 * 3.5;
                     padding-bottom: 15px;
                     // box-shadow: 2.5px 2.5px 10px rgba(0, 0, 0, 0.5);
                     > .Null {

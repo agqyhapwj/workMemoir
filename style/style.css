@@ -86,17 +86,26 @@ img {
   header > #MenuNavOpen #navigation > h3 img {
     position: relative;
     float: left;
+    background-color: #9bb2dd;
     margin-left: 5px;
     margin-top: -30px;
     width: 60vw;
   }
   header > #MenuNavOpen #LifeShare #SubjectTxet {
     text-align: center;
+    position: relative;
     margin-top: 90px;
     padding-bottom: 15px;
   }
+  header > #MenuNavOpen #LifeShare > article {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
   header > #MenuNavOpen #LifeShare > article > .IdImg {
-    width: 30vw;
+    width: 35vw;
     padding-bottom: 15px;
   }
   header > #MenuNavOpen #LifeShare > article > .IdImg > .Null {
