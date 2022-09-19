@@ -78,6 +78,14 @@ img {
     position: fixed;
     width: 90%;
   }
+  header > #MenuNavOpen #navigation > div img {
+    position: relative;
+    float: left;
+    background-image: url(../../images/Background/002.jpg);
+    margin-left: 60px;
+    margin-top: -80px;
+    width: 60vw;
+  }
   header > #MenuNavOpen #navigation #Close {
     width: 30px;
     height: 30px;
@@ -87,14 +95,6 @@ img {
     left: 170px;
     font-size: 30px;
     text-align: center;
-  }
-  header > #MenuNavOpen #navigation > div img {
-    position: relative;
-    float: left;
-    background-image: url(../../images/Background/002.jpg);
-    margin-left: 60px;
-    margin-top: -110px;
-    width: 60vw;
   }
   header > #MenuNavOpen #LifeShare #SubjectTxet {
     text-align: center;
@@ -300,8 +300,59 @@ img {
   header > #MainNav .Clear {
     clear: both;
   }
-  header #MenuNavOpen {
-    display: none;
+  header > #MenuNavOpen {
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    background-image: url(../../images/Background/002.jpg);
+  }
+  header > #MenuNavOpen #Logo {
+    width: 70vw;
+  }
+  header > #MenuNavOpen #MenuBtn {
+    width: 30vw;
+  }
+  header > #MenuNavOpen #navigation {
+    position: fixed;
+    width: 90%;
+  }
+  header > #MenuNavOpen #navigation > div img {
+    position: relative;
+    float: left;
+    background-image: url(../../images/Background/002.jpg);
+    margin-left: 100px;
+    margin-top: -80px;
+    width: 60vw;
+  }
+  header > #MenuNavOpen #navigation #Close {
+    width: 40px;
+    height: 40px;
+    list-style-type: none;
+    position: relative;
+    top: -100px;
+    left: 280px;
+    font-size: 30px;
+    text-align: center;
+  }
+  header > #MenuNavOpen #LifeShare #SubjectTxet {
+    text-align: center;
+    position: relative;
+    margin-top: 90px;
+    padding-top: 25px;
+  }
+  header > #MenuNavOpen #LifeShare > article {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  header > #MenuNavOpen #LifeShare > article > .IdImg {
+    width: 35vw;
+    padding-bottom: 15px;
+  }
+  header > #MenuNavOpen #LifeShare > article > .IdImg > .Null {
+    height: 10px;
   }
   footer {
     background-image: url(../../images/Background/002.jpg);
@@ -493,8 +544,59 @@ img {
   header #MainNav .Clear {
     clear: both;
   }
-  header #MenuNavOpen {
-    display: none;
+  header > #MenuNavOpen {
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    background-image: url(../../images/Background/002.jpg);
+  }
+  header > #MenuNavOpen #Logo {
+    width: 70vw;
+  }
+  header > #MenuNavOpen #MenuBtn {
+    width: 30vw;
+  }
+  header > #MenuNavOpen #navigation {
+    position: fixed;
+    width: 90%;
+  }
+  header > #MenuNavOpen #navigation > div img {
+    position: relative;
+    float: left;
+    background-image: url(../../images/Background/002.jpg);
+    margin-left: 170px;
+    margin-top: -60px;
+    width: 50vw;
+  }
+  header > #MenuNavOpen #navigation #Close {
+    width: 40px;
+    height: 40px;
+    list-style-type: none;
+    position: relative;
+    top: -120px;
+    left: 370px;
+    font-size: 30px;
+    text-align: center;
+  }
+  header > #MenuNavOpen #LifeShare #SubjectTxet {
+    text-align: center;
+    position: relative;
+    margin-top: 90px;
+    padding-top: 55px;
+  }
+  header > #MenuNavOpen #LifeShare > article {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  header > #MenuNavOpen #LifeShare > article > .IdImg {
+    width: 30vw;
+    padding-bottom: 15px;
+  }
+  header > #MenuNavOpen #LifeShare > article > .IdImg > .Null {
+    height: 10px;
   }
   footer {
     background-image: url(../../images/Background/003.jpg);

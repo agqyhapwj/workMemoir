@@ -47,8 +47,70 @@ header {
         }
     }
 
-    #MenuNavOpen {
-        @include DN;
+    >#MenuNavOpen {
+        // 解開隱藏的部分：寬度與高度(裝置的可視高度)
+        // 定位點 絕對定位
+        // @include DN;
+        width: $W1p * 10;
+        top: 0;
+        z-index: 999;
+        // background-color: rgb(238, 104, 104);
+        background-image: url(../../images/Background/002.jpg);
+        @include LogoMenuBtn(7, 0vw);
+    
+        #navigation {
+            position: fixed;
+            width: $W1p * 9;
+    
+            >div {
+                img {
+                    position: relative;
+                    float: left;
+                    background-image: url(../../images/Background/002.jpg);
+                    margin-left: 100px;
+                    margin-top: -80px;
+                    width: $W10 * 6;
+                }
+            }
+
+            #Close {
+                width: 40px;
+                height: 40px;
+                list-style-type: none;
+                position: relative;
+                top: -100px;
+                left: 280px;
+                font-size: 30px;
+                text-align: center;
+                // background-color: gold;
+            }
+        }
+    
+        #LifeShare {
+            #SubjectTxet {
+                text-align: center;
+                position: relative;
+                margin-top: 90px;
+                padding-top: 25px;
+            }
+    
+            >article {
+                // 一行兩欄
+                display: inline-flex;
+                flex-wrap: wrap;
+    
+                // margin-top: 0px;
+                >.IdImg {
+                    width: $W10 * 3.5;
+                    padding-bottom: 15px;
+    
+                    // box-shadow: 2.5px 2.5px 10px rgba(0, 0, 0, 0.5);
+                    >.Null {
+                        height: 10px;
+                    }
+                }
+            }
+        }
     }
 }
 
