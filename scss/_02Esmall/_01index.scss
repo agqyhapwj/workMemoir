@@ -48,33 +48,35 @@ header {
         // 解開隱藏的部分：寬度與高度(裝置的可視高度)
         // 定位點 絕對定位
         // @include DN;
-        width: $W1p * 9;
-        height: auto;
-        position:absolute;
-        top: 10px;
-        overflow: hidden;
-        background-color: rgb(155, 178, 221);
+        width: $W1p * 10;
+        top: 0;
+        z-index: 999;
+        // background-color: rgb(238, 104, 104);
+        background-image: url(../../images/Background/002.jpg);
+        @include LogoMenuBtn(7, 0vw);
 
        #navigation {
         position: fixed;
+        width: $W1p * 9;
         #Close {
-                width: 40px;
-                height: 40px;
+                width: 30px;
+                height: 30px;
                 list-style-type: none;
                 position: relative;
-                top: 10px;
-                left: 200px;
+                top: -85px;
+                left: 170px;
                 font-size: 30px;
                 text-align: center;
+                // background-color: gold;
             }
         
-            >h3 {
+            >div {
                 img {
                     position: relative;
                     float: left;
-                    background-color: rgb(155,178,221);
-                    margin-left: 5px;
-                    margin-top: -30px;
+                    background-image: url(../../images/Background/002.jpg);
+                    margin-left: 60px;
+                    margin-top: -110px;
                     width: $W10 * 6;
                 }
             }

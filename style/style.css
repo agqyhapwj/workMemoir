@@ -63,32 +63,37 @@ img {
     clear: both;
   }
   header > #MenuNavOpen {
-    width: 90%;
-    height: auto;
-    position: absolute;
-    top: 10px;
-    overflow: hidden;
-    background-color: #9bb2dd;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    background-image: url(../../images/Background/002.jpg);
+  }
+  header > #MenuNavOpen #Logo {
+    width: 70vw;
+  }
+  header > #MenuNavOpen #MenuBtn {
+    width: 30vw;
   }
   header > #MenuNavOpen #navigation {
     position: fixed;
+    width: 90%;
   }
   header > #MenuNavOpen #navigation #Close {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     list-style-type: none;
     position: relative;
-    top: 10px;
-    left: 200px;
+    top: -85px;
+    left: 170px;
     font-size: 30px;
     text-align: center;
   }
-  header > #MenuNavOpen #navigation > h3 img {
+  header > #MenuNavOpen #navigation > div img {
     position: relative;
     float: left;
-    background-color: #9bb2dd;
-    margin-left: 5px;
-    margin-top: -30px;
+    background-image: url(../../images/Background/002.jpg);
+    margin-left: 60px;
+    margin-top: -110px;
     width: 60vw;
   }
   header > #MenuNavOpen #LifeShare #SubjectTxet {
