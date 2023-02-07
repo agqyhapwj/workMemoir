@@ -163,7 +163,7 @@ img {
     font-size: 1.2rem;
     position: absolute;
     z-index: 15;
-    top: 110.39474px;
+    top: 110.3947368421px;
     border-radius: 15px;
   }
   #Main #Banner .LeftBtn {
@@ -247,7 +247,7 @@ img {
     border-radius: 15px;
   }
   #Main > #PhotoShare > article > .ImgShare > .Images > a > img {
-    border: 1.5px solid black;
+    border: 1.5px solid rgb(0, 0, 0);
     border-radius: 5px;
   }
   #Main > #PhotoShare > article > .ImgShare > .PhotoBrief {
@@ -256,7 +256,6 @@ img {
     padding-bottom: 3px;
   }
 }
-
 @media screen and (min-width: 576px) {
   header {
     width: 90%;
@@ -399,7 +398,7 @@ img {
     text-align: center;
     position: absolute;
     z-index: 15;
-    top: 234.19014px;
+    top: 234.1901408451px;
     border-radius: 15px;
   }
   #Main #Banner .LeftBtn {
@@ -492,7 +491,7 @@ img {
     border-radius: 15px;
   }
   #Main > #PhotoShare > article > .ImgShare > .Images > a > img {
-    border: 1.5px solid black;
+    border: 1.5px solid rgb(0, 0, 0);
     border-radius: 5px;
   }
   #Main > #PhotoShare > article > .ImgShare > .PhotoBrief {
@@ -501,7 +500,6 @@ img {
     padding-bottom: 3px;
   }
 }
-
 @media screen and (min-width: 768px) {
   header {
     width: 95%;
@@ -645,7 +643,7 @@ img {
     text-align: center;
     position: absolute;
     z-index: 15;
-    top: 238.21429px;
+    top: 238.2142857143px;
     border-radius: 15px;
   }
   #Main #Banner .LeftBtn {
@@ -737,7 +735,7 @@ img {
     border-radius: 15px;
   }
   #Main #PhotoShare > article > .ImgShare > .Images > a > img {
-    border: 1.5px solid black;
+    border: 1.5px solid rgb(0, 0, 0);
     border-radius: 10px;
   }
   #Main #PhotoShare > article > .ImgShare > .PhotoBrief {
@@ -746,7 +744,6 @@ img {
     padding-bottom: 8px;
   }
 }
-
 @media screen and (min-width: 992px) {
   header {
     width: 95vw;
@@ -935,7 +932,7 @@ img {
     border-radius: 15px;
   }
   #Main #PhotoShare > article > .ImgShare > .Images > a > img {
-    border: 1.5px solid black;
+    border: 1.5px solid rgb(0, 0, 0);
     border-radius: 10px;
   }
   #Main #PhotoShare > article > .ImgShare > .PhotoBrief {
@@ -944,7 +941,6 @@ img {
     padding-bottom: 8px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   header {
     width: 95vw;
@@ -1024,7 +1020,7 @@ img {
     text-align: center;
     position: absolute;
     z-index: 15;
-    top: 347.14286px;
+    top: 347.1428571429px;
     border-radius: 15px;
   }
   #Main #Banner .LeftBtn {
@@ -1117,7 +1113,7 @@ img {
     border-radius: 15px;
   }
   #Main #PhotoShare > article > .ImgShare > .Images > a > img {
-    border: 1.5px solid black;
+    border: 1.5px solid rgb(0, 0, 0);
     border-radius: 10px;
   }
   #Main #PhotoShare > article > .ImgShare > .PhotoBrief {
@@ -1126,7 +1122,6 @@ img {
     padding-bottom: 8px;
   }
 }
-
 @media screen and (min-width: 1400px) {
   header {
     width: 100vw;
@@ -1202,7 +1197,7 @@ img {
     text-align: center;
     position: absolute;
     z-index: 15;
-    top: 353.63636px;
+    top: 353.6363636364px;
     border-radius: 15px;
   }
   #Main #Banner .LeftBtn {
@@ -1296,7 +1291,7 @@ img {
     border-radius: 15px;
   }
   #Main #PhotoShare > article > .ImgShare > .Images > a > img {
-    border: 1.5px solid black;
+    border: 1.5px solid rgb(0, 0, 0);
     border-radius: 10px;
   }
   #Main #PhotoShare > article > .ImgShare > .PhotoBrief {
